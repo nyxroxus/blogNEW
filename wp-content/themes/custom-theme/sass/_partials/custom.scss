@@ -1,0 +1,27 @@
+@import "_partials/colors.scss";
+.header-navigation li{
+  display: inline;
+  margin-left: 0%;
+  padding: 2% 3% 2% 3%;
+  a {
+    color: $redpink;
+    text-decoration: none;
+  }
+
+}
+.header-navigation ul{
+  border-top: 1px solid $redpink;
+  border-bottom: 1px solid $redpink;
+  padding: 2% 0 2% 0;
+}
+.header-navigation li:hover{
+  background-color: $redpink;
+  color: white;
+  a:hover{
+    color: white;
+  }
+}
+.footer-navigation li{
+  display: inline;
+  margin-left: 5%;
+}

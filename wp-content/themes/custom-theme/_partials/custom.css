@@ -1,0 +1,28 @@
+/* line 2, ../sass/_partials/custom.scss */
+.header-navigation li {
+  display: inline;
+  margin-left: 0%;
+  padding: 2% 3% 2% 3%; }
+  /* line 6, ../sass/_partials/custom.scss */
+  .header-navigation li a {
+    color: #F4004A;
+    text-decoration: none; }
+
+/* line 12, ../sass/_partials/custom.scss */
+.header-navigation ul {
+  border-top: 1px solid #F4004A;
+  border-bottom: 1px solid #F4004A;
+  padding: 2% 0 2% 0; }
+
+/* line 17, ../sass/_partials/custom.scss */
+.header-navigation li:hover {
+  background-color: #F4004A;
+  color: white; }
+  /* line 20, ../sass/_partials/custom.scss */
+  .header-navigation li:hover a:hover {
+    color: white; }
+
+/* line 24, ../sass/_partials/custom.scss */
+.footer-navigation li {
+  display: inline;
+  margin-left: 5%; }
