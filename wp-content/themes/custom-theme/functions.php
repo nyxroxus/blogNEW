@@ -3,7 +3,22 @@ function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
   wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/custom_style.css', array(), '1.0.0', 'all' );
   wp_enqueue_script( 'customjs', get_template_directory_uri() . 'js/custom.js', array(), '1.0.0', true );
+  wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+  wp_enqueue_style('Font_Awesome');
 }
+function custom_theme_custom_header_setup(){
+  $args = array(
+    'default-image'       =>  get_template_directory_uri() . 'images/default-header-image.jpg',
+    'width'               =>  1000,
+    'height'              =>  250,
+    'header-text'         =>  true,
+    'default-text-color'  => '#fcfcfc',
+    'flex-width'          =>  true,
+    'flex-height'         =>  true,
+  );
+  add_theme_support( 'custom-header', $args );
+}
+
 function customtheme_custom_logo_setup(){
   $defaults = array(
   'height' => 100,
@@ -23,6 +38,7 @@ function custom_theme_setup(){
   add_theme_support('menus');
 }
 
+add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 add_action( 'after_setup_theme', customtheme_custom_logo_setup );
 add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_scripts' );

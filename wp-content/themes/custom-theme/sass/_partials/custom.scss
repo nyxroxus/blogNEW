@@ -1,21 +1,61 @@
 @import "_partials/colors.scss";
-.header-navigation li{
+/* Header navigation */
+.custom-header-navigation li{
   padding: 1% 3% 1% 3%;
   display: inline;
   a {
-    color: $redpink;
+    color: $lightred;
     text-decoration: none;
   }
-
+  @include breakpoint(mobileonly) {
+		display: block;
+	}
 }
-.header-navigation ul{
+.custom-header-navigation li:hover{
+  a{
+    color: $darkpurple;
+  }
+}
+.custom-header-navigation ul{
   padding: 0 0 0 0;
 }
-
-.footer-navigation li{
+/* Footer navigation */
+.custom-footer-navigation li{
   display: inline;
   margin-left: 2%;
+  @include breakpoint(mobileonly) {
+		display: block;
+    margin-left: 0;
+	}
+
 }
-.footer-navigation li{
-  a { color: $redpink; text-decoration: none; margin-left: 1%; font-weight: 800; }
+.custom-footer-navigation ul {
+  @include breakpoint(mobileonly) {
+    padding: 0;
+
+	}
+}
+.custom-footer-navigation li{
+  a {
+    color: $darkpurple;
+    text-decoration: none;
+    margin-left: 1%;
+    font-weight: 800;
+  }
+}
+.custom-footer-navigation li:hover{
+  a {
+    color: $lightred;
+  }
+}
+.custom-header-text{
+  color:white;
+  position:absolute;
+  top:50px;
+  left:80px;
+  -moz-opacity:.90;
+  filter:alpha(opacity=90);
+  opacity:.90;
+  display: block;
+  text-align: left;
 }

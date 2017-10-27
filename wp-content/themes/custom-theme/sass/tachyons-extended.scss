@@ -4,15 +4,22 @@
 
 /* Background colors */
 .bg-redpink { background-color: $redpink; }
+.bg-transwhite { background-color: $transparentwhite; }
+.bg-lightred { background-color: $lightred; }
+.bg-darkpurple { background-color: $darkpurple; }
 
 /* Text colors */
 .redpink { color: $redpink; }
 .dustywhite { color: $dustywhite; }
 .darkergray { color: $darkergray; }
+.lightred { color: $lightred; }
+.darkpurple { color: $darkpurple; }
 
 
 /* Border colors */
 .b--redpink { border-color: $redpink; }
+.b--lightred { border-color: $lightred; }
+.bg-darkpurple { border-color: $darkpurple; }
 
 .c-bt--dashed { border-top-style: dashed; }
 .c-bb--dashed { border-bottom-style: dashed; }

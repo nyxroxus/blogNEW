@@ -4,28 +4,56 @@
 .bg-redpink {
   background-color: #e21364; }
 
-/* Text colors */
+/* line 7, sass/tachyons-extended.scss */
+.bg-transwhite {
+  background-color: rgba(255, 255, 255, 0.68); }
+
+/* line 8, sass/tachyons-extended.scss */
+.bg-lightred {
+  background-color: #cd393a; }
+
 /* line 9, sass/tachyons-extended.scss */
+.bg-darkpurple {
+  background-color: #364c62; }
+
+/* Text colors */
+/* line 12, sass/tachyons-extended.scss */
 .redpink {
   color: #e21364; }
 
-/* line 10, sass/tachyons-extended.scss */
+/* line 13, sass/tachyons-extended.scss */
 .dustywhite {
   color: #e8e6ed; }
 
-/* line 11, sass/tachyons-extended.scss */
+/* line 14, sass/tachyons-extended.scss */
 .darkergray {
   color: #535559; }
 
-/* Border colors */
 /* line 15, sass/tachyons-extended.scss */
+.lightred {
+  color: #cd393a; }
+
+/* line 16, sass/tachyons-extended.scss */
+.darkpurple {
+  color: #364c62; }
+
+/* Border colors */
+/* line 20, sass/tachyons-extended.scss */
 .b--redpink {
   border-color: #e21364; }
 
-/* line 17, sass/tachyons-extended.scss */
+/* line 21, sass/tachyons-extended.scss */
+.b--lightred {
+  border-color: #cd393a; }
+
+/* line 22, sass/tachyons-extended.scss */
+.bg-darkpurple {
+  border-color: #364c62; }
+
+/* line 24, sass/tachyons-extended.scss */
 .c-bt--dashed {
   border-top-style: dashed; }
 
-/* line 18, sass/tachyons-extended.scss */
+/* line 25, sass/tachyons-extended.scss */
 .c-bb--dashed {
   border-bottom-style: dashed; }
