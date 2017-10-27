@@ -1,0 +1,18 @@
+@import "_partials/colors";
+
+/* Tachyons color codes extended */
+
+/* Background colors */
+.bg-redpink { background-color: $redpink; }
+
+/* Text colors */
+.redpink { color: $redpink; }
+.dustywhite { color: $dustywhite; }
+.darkergray { color: $darkergray; }
+
+
+/* Border colors */
+.b--redpink { border-color: $redpink; }
+
+.c-bt--dashed { border-top-style: dashed; }
+.c-bb--dashed { border-bottom-style: dashed; }

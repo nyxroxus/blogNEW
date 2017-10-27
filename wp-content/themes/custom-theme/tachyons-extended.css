@@ -1,0 +1,31 @@
+/* Tachyons color codes extended */
+/* Background colors */
+/* line 6, sass/tachyons-extended.scss */
+.bg-redpink {
+  background-color: #e21364; }
+
+/* Text colors */
+/* line 9, sass/tachyons-extended.scss */
+.redpink {
+  color: #e21364; }
+
+/* line 10, sass/tachyons-extended.scss */
+.dustywhite {
+  color: #e8e6ed; }
+
+/* line 11, sass/tachyons-extended.scss */
+.darkergray {
+  color: #535559; }
+
+/* Border colors */
+/* line 15, sass/tachyons-extended.scss */
+.b--redpink {
+  border-color: #e21364; }
+
+/* line 17, sass/tachyons-extended.scss */
+.c-bt--dashed {
+  border-top-style: dashed; }
+
+/* line 18, sass/tachyons-extended.scss */
+.c-bb--dashed {
+  border-bottom-style: dashed; }
