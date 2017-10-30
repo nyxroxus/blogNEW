@@ -37,7 +37,15 @@ function custom_theme_setup(){
   );
   add_theme_support('menus');
 }
+function setup_theme_admin_menus(){
+  add_submenu_page( 'themes.php', 'Front Page Elements', 'Front Page', 'manage_options', 'front-page-elements', 'theme_front_page_settings' );
+}
 
+function theme_front_page_settings(){
+  include 'theme_settings_page.php';
+  }
+
+add_action( 'admin_menu', 'setup_theme_admin_menus' );
 add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 add_action( 'after_setup_theme', customtheme_custom_logo_setup );
