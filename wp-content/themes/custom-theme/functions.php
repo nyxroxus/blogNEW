@@ -42,7 +42,7 @@ function setup_theme_admin_menus(){
 }
 
 function theme_front_page_settings(){
-  echo "Hello World";
+  include 'theme_settings_page.php';
   }
 
 add_action( 'admin_menu', 'setup_theme_admin_menus' );
