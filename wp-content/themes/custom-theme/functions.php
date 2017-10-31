@@ -37,18 +37,51 @@ function custom_theme_setup(){
   );
   add_theme_support('menus');
 }
-function setup_theme_admin_menus(){
-  add_submenu_page( 'themes.php', 'Front Page Elements', 'Front Page', 'manage_options', 'front-page-elements', 'theme_front_page_settings' );
-}
+function add_theme_menu_item()
+    {
+        add_menu_page(
+            "Theme Panel",/*title*/
+            "Theme Panel",/*meta title*/
+            "manage_options",/**/
+            "theme-panel",/*slug*/
+            "theme_options_page",
+            null,
+            99
+        );
+    }
+function theme_options_page()
+    {
+      ?>
+      <div class="wrap">
+        <h1>Theme panel</h1>
+        <form method="post" action="options.php">
 
-function theme_front_page_settings(){
-  include 'theme_settings_page.php';
-  }
+            <?php
+              settings_fields("section");
+              do_settings_sections("theme-options");
+              submit_button();
+            ?>
+        </form>
+      </div>
+      <?php
+      function display_facebook_url()
+      {
+        ?>
+        <input type="text" name="fb_url" id="facebook_url" value="<?php echo get_option("facebook_url")?>"/>
+        <?php
+      }
+      function display_theme_panel_fields() {
+        add_settings_section("section", "All settings", null, "theme-options");
+        add_settings_field("facebook_url", "Facebook url" , "display_facebook_url" , "theme-options", "section");
+        register_setting("section", "facebook_url");
+      }
+    }
 
-add_action( 'admin_menu', 'setup_theme_admin_menus' );
+add_action("admin_init", "display_theme_panel_fields");
+add_action( 'admin_menu', 'add_theme_menu_item' );
 add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
-add_action( 'after_setup_theme', customtheme_custom_logo_setup );
+add_action( 'after_setup_theme', 'customtheme_custom_logo_setup' );
 add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_scripts' );
 
 ?>
