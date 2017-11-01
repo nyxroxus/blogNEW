@@ -39,21 +39,40 @@
 
 /* Border colors */
 /* line 20, sass/tachyons-extended.scss */
+.b--transwhite {
+  border-color: rgba(255, 255, 255, 0.68); }
+
+/* line 21, sass/tachyons-extended.scss */
 .b--redpink {
   border-color: #e21364; }
 
-/* line 21, sass/tachyons-extended.scss */
+/* line 22, sass/tachyons-extended.scss */
 .b--lightred {
   border-color: #cd393a; }
 
-/* line 22, sass/tachyons-extended.scss */
+/* line 23, sass/tachyons-extended.scss */
 .bg-darkpurple {
   border-color: #364c62; }
 
-/* line 24, sass/tachyons-extended.scss */
+/* line 25, sass/tachyons-extended.scss */
 .c-bt--dashed {
   border-top-style: dashed; }
 
-/* line 25, sass/tachyons-extended.scss */
+/* line 26, sass/tachyons-extended.scss */
 .c-bb--dashed {
   border-bottom-style: dashed; }
+
+/* Tachyons classes extended */
+/* line 29, sass/tachyons-extended.scss */
+.custom-color-hover {
+  background-color: white; }
+  /* line 29, sass/tachyons-extended.scss */
+  .custom-color-hover .custom-color, .custom-color-hover a {
+    color: #364c62; }
+
+/* line 30, sass/tachyons-extended.scss */
+.custom-color-hover:hover {
+  background-color: #cd393a; }
+  /* line 30, sass/tachyons-extended.scss */
+  .custom-color-hover:hover .custom-color, .custom-color-hover:hover a {
+    color: white; }

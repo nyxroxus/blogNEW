@@ -17,6 +17,7 @@
 
 
 /* Border colors */
+.b--transwhite { border-color: $transparentwhite; }
 .b--redpink { border-color: $redpink; }
 .b--lightred { border-color: $lightred; }
 .bg-darkpurple { border-color: $darkpurple; }
@@ -25,8 +26,5 @@
 .c-bb--dashed { border-bottom-style: dashed; }
 
 /* Tachyons classes extended */
-.hover-bg-redpink {
-  .hover-bg-redpink:hover{
-    background-color: $redpink;
-  }
-}
+.custom-color-hover{ background-color: white; .custom-color, a{ color: $darkpurple; } }
+.custom-color-hover:hover{ background-color: $lightred; .custom-color, a{ color: white; } }
