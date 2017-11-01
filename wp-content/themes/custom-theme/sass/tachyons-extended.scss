@@ -23,3 +23,10 @@
 
 .c-bt--dashed { border-top-style: dashed; }
 .c-bb--dashed { border-bottom-style: dashed; }
+
+/* Tachyons classes extended */
+.hover-bg-redpink {
+  .hover-bg-redpink:hover{
+    background-color: $redpink;
+  }
+}
