@@ -7,6 +7,9 @@
 .bg-transwhite { background-color: $transparentwhite; }
 .bg-lightred { background-color: $lightred; }
 .bg-darkpurple { background-color: $darkpurple; }
+.bg-lightgray { background-color: $lightgray; }
+
+
 
 /* Text colors */
 .redpink { color: $redpink; }
@@ -14,17 +17,18 @@
 .darkergray { color: $darkergray; }
 .lightred { color: $lightred; }
 .darkpurple { color: $darkpurple; }
-
+.lightgray { color: $lightgray; }
 
 /* Border colors */
 .b--transwhite { border-color: $transparentwhite; }
 .b--redpink { border-color: $redpink; }
 .b--lightred { border-color: $lightred; }
-.bg-darkpurple { border-color: $darkpurple; }
-
+.b--darkpurple { border-color: $darkpurple; }
 .c-bt--dashed { border-top-style: dashed; }
 .c-bb--dashed { border-bottom-style: dashed; }
 
 /* Tachyons classes extended */
 .custom-color-hover{ background-color: white; .custom-color, a{ color: $darkpurple; } }
 .custom-color-hover:hover{ background-color: $lightred; .custom-color, a{ color: white; } }
+.custom-read-more{ border-color: $darkpurple; }
+.custom-read-more:hover{ border-color: white; }

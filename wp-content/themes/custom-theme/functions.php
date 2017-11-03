@@ -55,14 +55,16 @@ function add_theme_menu_item()
         );
 }
 function new_excerpt_more($more) {
-  return '';
+  return $more;
 }
 /* Here you can stylize how read more link would appear */
 function the_excerpt_more_link( $excerpt ){
   $post = get_post();
-  $excerpt .= '<div class="bg-lightred pa3 w-20 tc center"><a href="'. get_permalink($post->ID) . '" class="link white" >Read more</a></div>';
+  $excerpt .= '<div class="br4 pa2 w-60 tc bg-lightred grow center pointer mt4 mb3"><a href="'. get_permalink($post->ID) . '" class="link white " >Read more</a></div>';
   return $excerpt;
+
 }
+
 /* Add filters */
 add_filter( 'excerpt_more', 'new_excerpt_more', 21 );
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
