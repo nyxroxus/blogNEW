@@ -4,16 +4,17 @@
       <?php the_title(); ?>
     </a>
   </h2>
+		<div class="f7 w-100">
+			<div class="fl dib mt3 pv1 w-20 tc br4 white bg-lightred">
+				<?php the_author() ?>
+			</div>
+			<div class="dib fr tc w-20 lightred">
+				<?php the_date(); ?>
+			</div>
 
-		<div class="">
-			<?php the_date(); ?>
 		</div>
-    <a href="#" class="lightred link">
-			<div class="">
-    	<?php the_author(); ?>
-    	</div>
-    </a>
-		<div class="">
+
+		<div class="f6 pt4">
 			<?php the_excerpt(); ?>
 		</div>
 </div>
