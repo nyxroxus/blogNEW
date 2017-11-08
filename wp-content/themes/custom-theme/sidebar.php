@@ -1,6 +1,6 @@
-<div class="ml4 fr bg-white pa3 mt3 shadow-4 ">
+<div class="ml4 fr pa3 mt3 shadow-4">
   <div class="">
-    <h2 class="lightred"><?php echo get_the_title( 57 ); ?></h4>
+    <h2 class=""><?php echo get_the_title( 57 ); ?></h4>
     <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
   </div>
   <div class="">

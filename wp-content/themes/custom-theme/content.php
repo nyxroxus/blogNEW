@@ -1,13 +1,13 @@
 <div class="">
 	<h2 class="pointer">
-		<a class="lightred link"
+		<a class=""
 			href="<?php the_permalink() ?>"><?php the_title(); ?>
 		</a>
 	</h2>
-	<p class=""><?php the_date(); ?> by
-		<a href="#" class="lightred link">
+	<p class=""><?php the_date(); ?> </p> by 
+		<a href="#" class="">
 			<?php the_author(); ?>
 		</a>
-	</p>
+
     <?php the_excerpt(); ?>
 </div>
