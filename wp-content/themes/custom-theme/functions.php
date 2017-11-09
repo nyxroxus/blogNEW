@@ -37,6 +37,7 @@ function custom_theme_setup(){
   );
   add_theme_support('menus');
 }
+
 function add_theme_menu_item()
     {
         add_menu_page(
@@ -49,13 +50,42 @@ function add_theme_menu_item()
             99
         );
     }
+    if (! function_exists('slug_scripts_masonry') ) :
+    if ( ! is_admin() ) :
+    function slug_scripts_masonry() {
+        wp_enqueue_script('masonry');
+        wp_enqueue_style('masonry', get_template_directory_uri().'/css/');
+    }
+    add_action( 'wp_enqueue_scripts', 'slug_scripts_masonry' );
+    endif; //! is_admin()
+    endif; //! slug_scripts_masonry exists
+
+    if ( ! function_exists( 'slug_masonry_init' )) :
+function slug_masonry_init() { ?>
+<script>
+    //set the container that Masonry will be inside of in a var
+    var container = document.querySelector('#masonry-loop');
+    //create empty var msnry
+    var msnry;
+    // initialize Masonry after all images have loaded
+    imagesLoaded( container, function() {
+        msnry = new Masonry( container, {
+            itemSelector: '.masonry-entry'
+        });
+    });
+</script>
+<?php }
+//add to wp_footer
+add_action( 'wp_footer', 'slug_masonry_init' );
+endif; // ! slug_masonry_init exists
+
+/*
 function theme_options_page()
     {
       ?>
       <div class="wrap">
         <h1>Theme panel</h1>
         <form method="post" action="options.php">
-
             <?php
               settings_fields("section");
               do_settings_sections("theme-options");
@@ -78,6 +108,7 @@ function theme_options_page()
     }
 
 add_action("admin_init", "display_theme_panel_fields");
+*/
 add_action( 'admin_menu', 'add_theme_menu_item' );
 add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
