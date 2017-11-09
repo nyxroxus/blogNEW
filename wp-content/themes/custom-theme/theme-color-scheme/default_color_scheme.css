@@ -224,7 +224,7 @@ body, a, li, ul {
 /* line 12, ../sass/_partials/globals.scss */
 .custom-header-text {
   position: absolute;
-  top: 80px;
+  top: 140px;
   left: 50px; }
 
 /* line 17, ../sass/_partials/globals.scss */
@@ -250,69 +250,81 @@ a {
 
 /* Globals */
 /* line 5, ../sass/theme-color-scheme/default_color_scheme.scss */
-body {
-  background-color: rgba(215, 215, 215, 0.78); }
+.default {
+  background-color: #364c62; }
 
 /* line 8, ../sass/theme-color-scheme/default_color_scheme.scss */
-a {
-  color: #cd393a; }
+.default a {
+  color: #DFDCE3; }
 
 /* line 11, ../sass/theme-color-scheme/default_color_scheme.scss */
-a:hover {
+.default-color-box {
+  background-color: rgba(82, 82, 82, 0.5); }
+
+/* line 14, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-blog-font-color {
+  color: #DFDCE3; }
+
+/* line 17, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-navigation a {
+  color: rgba(82, 82, 82, 0.5); }
+
+/* line 20, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-navigation a:hover {
   color: #364c62; }
 
-/* line 15, ../sass/theme-color-scheme/default_color_scheme.scss */
-.font-color-misc {
+/* line 23, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-heading-box {
+  background-color: #364c62; }
+
+/* line 26, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-heading {
+  color: #DFDCE3; }
+
+/* line 29, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-author {
+  background-color: #364c62; }
+
+/* line 32, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-author a {
+  color: #DFDCE3; }
+
+/* line 35, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-date {
+  color: #364c62; }
+
+/* line 38, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-color-footer-navigation {
+  background-color: #364c62; }
+
+/* line 41, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-border-color {
+  border-color: rgba(82, 82, 82, 0.5); }
+
+/* line 44, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-footer-menu a {
   color: white; }
 
-/* line 18, ../sass/theme-color-scheme/default_color_scheme.scss */
-.font-color {
-  color: #cd393a; }
+/* line 47, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-p-color {
+  color: white; }
 
-/* line 21, ../sass/theme-color-scheme/default_color_scheme.scss */
-.font-color:hover {
-  color: #364c62; }
+/* line 50, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-social-box-color {
+  background-color: #364c62; }
 
-/* line 24, ../sass/theme-color-scheme/default_color_scheme.scss */
-.border-color {
-  border-color: #cd393a; }
+/* line 53, ../sass/theme-color-scheme/default_color_scheme.scss */
+.default-social-link-color a {
+  color: #DFDCE3; }
 
-/* line 27, ../sass/theme-color-scheme/default_color_scheme.scss */
-.border-color:hover {
-  border-color: #364c62; }
-
-/* line 30, ../sass/theme-color-scheme/default_color_scheme.scss */
-.background-color {
-  background-color: white; }
-
-/* line 33, ../sass/theme-color-scheme/default_color_scheme.scss */
-.custom-excerpt-color {
-  border-color: #cd393a; }
-
-/* line 36, ../sass/theme-color-scheme/default_color_scheme.scss */
-.custom-excerpt-color:hover {
-  border-color: #364c62; }
-
-/* line 39, ../sass/theme-color-scheme/default_color_scheme.scss */
-.custom-div-color {
-  background-color: white; }
-
-/* line 42, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 65, ../sass/theme-color-scheme/default_color_scheme.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #364c62; }
 
-/* line 45, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 68, ../sass/theme-color-scheme/default_color_scheme.scss */
 p {
   color: #364c62; }
 
-/* line 48, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 71, ../sass/theme-color-scheme/default_color_scheme.scss */
 article {
-  background-color: white; }
-
-/* line 57, ../sass/theme-color-scheme/default_color_scheme.scss */
-footer {
-  background-color: white; }
-
-/* line 60, ../sass/theme-color-scheme/default_color_scheme.scss */
-aside {
   background-color: white; }

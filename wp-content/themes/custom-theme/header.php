@@ -17,22 +17,22 @@
     </div>
     <div class="center tc" style="">
       <?php if ( get_header_image() ): ?>
-        <div id="site-header" class="dn dib-l background-color">
+        <div id="site-header" class="dn dib-l">
 
             <img src="<?php header_image(); ?>"
             width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"
             alt="">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <div class="custom-header-text tl dn dib-l">
-              <p class="font-color-misc grow f1"><?php echo get_bloginfo('name'); ?></p>
-              <p class="font-color-misc grow f3"><?php echo get_bloginfo('description'); ?></p>
+            <div class="custom-header-text tl dn dib-l default-color-box ph5 br2">
+              <p class="grow f2 default-blog-font-color"><?php echo get_bloginfo('name'); ?></p>
+              <p class="grow f4 default-blog-font-color"><?php echo get_bloginfo('description'); ?></p>
             </div>
             </a>
         </div>
       <?php endif; ?>
       <!-- Used before: <a class="" href="#"> wp_list_pages( '&title_li=' ); </a> -->
-      <nav class="background-color pv2">
-        <h1 class="f5-l f5 f4-m custom-header-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
+      <nav class="">
+        <h1 class="f5-l f5 f4-m custom-header-navigation default-color-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
       </nav>
     </div>
 </div>

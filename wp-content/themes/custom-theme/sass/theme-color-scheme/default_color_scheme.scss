@@ -2,48 +2,71 @@
 @import "tachyons-extended";
 @import "_partials/globals";
 /* Globals */
-body{
-  background-color: $lightergray;
+.default{
+  background-color: $darkpurple;
 }
-a{
-  color: $lightred;
+.default a{
+  color: $clean;
 }
-a:hover{
+.default-color-box{
+  background-color: $transparentgray;
+}
+.default-blog-font-color{
+  color: $clean;
+}
+.default-color-navigation a{
+  color: $transparentgray;
+}
+.default-color-navigation a:hover{
   color: $darkpurple;
 }
-
-.font-color-misc{
+.default-color-heading-box{
+  background-color: $darkpurple;
+}
+.default-color-heading{
+  color: $clean;
+}
+.default-color-author{
+  background-color: $darkpurple;
+}
+.default-color-author a{
+  color: $clean;
+}
+.default-color-date{
+  color: $darkpurple;
+}
+.default-color-footer-navigation{
+  background-color: $darkpurple;
+}
+.default-border-color{
+  border-color: $transparentgray;
+}
+.default-footer-menu a{
   color: white;
 }
-.font-color{
-  color: $lightred;
+.default-p-color{
+  color: white;
 }
-.font-color:hover{
-  color: $darkpurple;
+.default-social-box-color{
+  background-color: $darkpurple;
 }
-.border-color{
-  border-color: $lightred;
+.default-social-link-color a{
+  color: $clean;
 }
-.border-color:hover{
-  border-color: $darkpurple;
+body{
+
 }
-.background-color{
-  background-color: white;
+a{
+
 }
-.custom-excerpt-color{
-  border-color: $lightred;
-}
-.custom-excerpt-color:hover{
-  border-color: $darkpurple;
-}
-.custom-div-color{
-  background-color: white;
+a:hover{
+
 }
 h1,h2,h3,h4,h5,h6{
   color: $darkpurple;
 }
 p{
- color: $darkpurple;
+  color: $darkpurple;
 }
 article{
   background-color: white;
@@ -55,10 +78,10 @@ header{
 
 }
 footer{
-  background-color: white;
+
 }
 aside{
-  background-color: white;
+
 }
 section{
 
