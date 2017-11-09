@@ -1,4 +1,5 @@
 <?php
+
 function add_global_custom_options(){
 add_options_page('Global Custom Options', 'Global Custom Options', 'manage_options', 'functions','global_custom_options');
 }
@@ -31,15 +32,16 @@ function global_custom_options()
 </p>
 <p><strong>Change website title</strong><br />
 	<input type="text" name="blogname" value="<?php echo get_option('blogname') ?>" />
+  <input type="text" name="" value="" class="color-field"/>
 </p>
 <p><strong>Select logo image</strong><br />
-
 </p>
 <p><input type="submit" name="Submit" value="Store Options" /></p>
 <input type="hidden" name="action" value="update" />
 <input type="hidden" name="page_options" value="twitterid, color_scheme, blogname" />
 </form>
 </div>
+
 <?php
 }
 
