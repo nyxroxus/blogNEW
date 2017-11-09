@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 <article class="clear w-80 center pt3">
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post();
+if ( comments_open() || get_comments_number() ) {
+  comments_template();
+}
+?>
 
   <div class="tc f2">
     <?php the_title(); ?>
