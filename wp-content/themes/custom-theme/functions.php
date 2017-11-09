@@ -1,4 +1,6 @@
 <?php
+
+/* Enqueue styles and scripts */
 function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
   wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/custom_style.css', array(), '1.0.0', 'all' );
@@ -6,6 +8,8 @@ function custom_theme_enqueue_scripts(){
   wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
   wp_enqueue_style('Font_Awesome');
 }
+
+/* Functions */
 function custom_theme_custom_header_setup(){
   $args = array(
     'default-image'       =>  get_template_directory_uri() . 'images/default-header-image.jpg',
@@ -49,66 +53,21 @@ function add_theme_menu_item()
             null,
             99
         );
-    }
-    if (! function_exists('slug_scripts_masonry') ) :
-    if ( ! is_admin() ) :
-    function slug_scripts_masonry() {
-        wp_enqueue_script('masonry');
-        wp_enqueue_style('masonry', get_template_directory_uri().'/css/');
-    }
-    add_action( 'wp_enqueue_scripts', 'slug_scripts_masonry' );
-    endif; //! is_admin()
-    endif; //! slug_scripts_masonry exists
+}
+function new_excerpt_more($more) {
+  return '';
+}
+/* Here you can stylize how read more link would appear */
+function the_excerpt_more_link( $excerpt ){
+  $post = get_post();
+  $excerpt .= '<div class="bg-lightred pa3 w-20 tc center"><a href="'. get_permalink($post->ID) . '" class="link white" >Read more</a></div>';
+  return $excerpt;
+}
+/* Add filters */
+add_filter( 'excerpt_more', 'new_excerpt_more', 21 );
+add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
 
-    if ( ! function_exists( 'slug_masonry_init' )) :
-function slug_masonry_init() { ?>
-<script>
-    //set the container that Masonry will be inside of in a var
-    var container = document.querySelector('#masonry-loop');
-    //create empty var msnry
-    var msnry;
-    // initialize Masonry after all images have loaded
-    imagesLoaded( container, function() {
-        msnry = new Masonry( container, {
-            itemSelector: '.masonry-entry'
-        });
-    });
-</script>
-<?php }
-//add to wp_footer
-add_action( 'wp_footer', 'slug_masonry_init' );
-endif; // ! slug_masonry_init exists
-
-/*
-function theme_options_page()
-    {
-      ?>
-      <div class="wrap">
-        <h1>Theme panel</h1>
-        <form method="post" action="options.php">
-            <?php
-              settings_fields("section");
-              do_settings_sections("theme-options");
-              submit_button();
-            ?>
-        </form>
-      </div>
-      <?php
-      function display_facebook_url()
-      {
-        ?>
-        <input type="text" name="fb_url" id="facebook_url" value="<?php echo get_option("facebook_url")?>"/>
-        <?php
-      }
-      function display_theme_panel_fields() {
-        add_settings_section("section", "All settings", null, "theme-options");
-        add_settings_field("facebook_url", "Facebook url" , "display_facebook_url" , "theme-options", "section");
-        register_setting("section", "facebook_url");
-      }
-    }
-
-add_action("admin_init", "display_theme_panel_fields");
-*/
+/* Add action */
 add_action( 'admin_menu', 'add_theme_menu_item' );
 add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
