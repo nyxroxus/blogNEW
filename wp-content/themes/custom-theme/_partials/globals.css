@@ -2,3 +2,7 @@
 body, a, li, ul {
   list-style: none;
   font-family: 'Montserrat', sans-serif; }
+
+/* line 6, ../sass/_partials/globals.scss */
+body {
+  background-color: rgba(181, 181, 181, 0.2); }

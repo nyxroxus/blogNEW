@@ -1,4 +1,4 @@
-<footer class="clear c-bt--dashed c-bb--dashed bw2 b--lightred w-100 ph5 pv2">
+<footer class="clear c-bt--dashed c-bb--dashed bw2 b--lightred w-100 ph5 pv2 bg-white">
   <div class="w-80 center tc">
     <h1 class="f2-l f4-m f3 custom-footer-navigation">
       <?php wp_nav_menu( array( 'theme_location'  => 'secondary', 'container_class' => 'secondary_menu' ) ); ?>

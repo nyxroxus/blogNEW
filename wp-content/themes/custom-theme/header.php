@@ -15,7 +15,7 @@
     <div class="w-100 center">
       <?php the_custom_logo(); ?>
     </div>
-    <div class="center tc" style="">
+    <div class="center tc bg-white pv2" style="">
       <?php if ( get_header_image() ): ?>
         <div id="site-header" class="dn dib-l">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">

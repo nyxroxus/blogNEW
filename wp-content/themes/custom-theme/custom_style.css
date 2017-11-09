@@ -22,33 +22,33 @@
   padding: 0 0 0 0; }
 
 /* Footer navigation */
-/* line 23, sass/_partials/custom.scss */
+/* line 24, sass/_partials/custom.scss */
 .custom-footer-navigation li {
   display: inline;
   margin-left: 2%; }
   @media (max-width: 37.5em) {
-    /* line 23, sass/_partials/custom.scss */
+    /* line 24, sass/_partials/custom.scss */
     .custom-footer-navigation li {
       display: block;
       margin-left: 0; } }
 
 @media (max-width: 37.5em) {
-  /* line 32, sass/_partials/custom.scss */
+  /* line 33, sass/_partials/custom.scss */
   .custom-footer-navigation ul {
     padding: 0; } }
 
-/* line 39, sass/_partials/custom.scss */
+/* line 40, sass/_partials/custom.scss */
 .custom-footer-navigation li a {
   color: #364c62;
   text-decoration: none;
   margin-left: 1%;
   font-weight: 800; }
 
-/* line 47, sass/_partials/custom.scss */
+/* line 48, sass/_partials/custom.scss */
 .custom-footer-navigation li:hover a {
   color: #cd393a; }
 
-/* line 51, sass/_partials/custom.scss */
+/* line 52, sass/_partials/custom.scss */
 .custom-header-text {
   color: white;
   position: absolute;
@@ -64,6 +64,10 @@
 body, a, li, ul {
   list-style: none;
   font-family: 'Montserrat', sans-serif; }
+
+/* line 6, sass/_partials/globals.scss */
+body {
+  background-color: rgba(181, 181, 181, 0.2); }
 
 /* Tachyons color codes extended */
 /* Background colors */
@@ -83,63 +87,79 @@ body, a, li, ul {
 .bg-darkpurple {
   background-color: #364c62; }
 
+/* line 10, sass/tachyons-extended.scss */
+.bg-lightgray {
+  background-color: #b9b9b9; }
+
 /* Text colors */
-/* line 12, sass/tachyons-extended.scss */
+/* line 15, sass/tachyons-extended.scss */
 .redpink {
   color: #e21364; }
 
-/* line 13, sass/tachyons-extended.scss */
+/* line 16, sass/tachyons-extended.scss */
 .dustywhite {
   color: #e8e6ed; }
 
-/* line 14, sass/tachyons-extended.scss */
+/* line 17, sass/tachyons-extended.scss */
 .darkergray {
   color: #535559; }
 
-/* line 15, sass/tachyons-extended.scss */
+/* line 18, sass/tachyons-extended.scss */
 .lightred {
   color: #cd393a; }
 
-/* line 16, sass/tachyons-extended.scss */
+/* line 19, sass/tachyons-extended.scss */
 .darkpurple {
   color: #364c62; }
 
-/* Border colors */
 /* line 20, sass/tachyons-extended.scss */
+.lightgray {
+  color: #b9b9b9; }
+
+/* Border colors */
+/* line 23, sass/tachyons-extended.scss */
 .b--transwhite {
   border-color: rgba(255, 255, 255, 0.68); }
 
-/* line 21, sass/tachyons-extended.scss */
+/* line 24, sass/tachyons-extended.scss */
 .b--redpink {
   border-color: #e21364; }
 
-/* line 22, sass/tachyons-extended.scss */
+/* line 25, sass/tachyons-extended.scss */
 .b--lightred {
   border-color: #cd393a; }
 
-/* line 23, sass/tachyons-extended.scss */
-.bg-darkpurple {
+/* line 26, sass/tachyons-extended.scss */
+.b--darkpurple {
   border-color: #364c62; }
 
-/* line 25, sass/tachyons-extended.scss */
+/* line 27, sass/tachyons-extended.scss */
 .c-bt--dashed {
   border-top-style: dashed; }
 
-/* line 26, sass/tachyons-extended.scss */
+/* line 28, sass/tachyons-extended.scss */
 .c-bb--dashed {
   border-bottom-style: dashed; }
 
 /* Tachyons classes extended */
-/* line 29, sass/tachyons-extended.scss */
+/* line 31, sass/tachyons-extended.scss */
 .custom-color-hover {
   background-color: white; }
-  /* line 29, sass/tachyons-extended.scss */
+  /* line 31, sass/tachyons-extended.scss */
   .custom-color-hover .custom-color, .custom-color-hover a {
     color: #364c62; }
 
-/* line 30, sass/tachyons-extended.scss */
+/* line 32, sass/tachyons-extended.scss */
 .custom-color-hover:hover {
   background-color: #cd393a; }
-  /* line 30, sass/tachyons-extended.scss */
+  /* line 32, sass/tachyons-extended.scss */
   .custom-color-hover:hover .custom-color, .custom-color-hover:hover a {
     color: white; }
+
+/* line 33, sass/tachyons-extended.scss */
+.custom-read-more {
+  border-color: #364c62; }
+
+/* line 34, sass/tachyons-extended.scss */
+.custom-read-more:hover {
+  border-color: white; }
