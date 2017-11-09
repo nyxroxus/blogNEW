@@ -74,9 +74,17 @@ function the_excerpt_more_link( $excerpt ){
   return $excerpt;
 
 }
+function load_jquery_ui() {
+    wp_enqueue_script('jquery-ui-core');
+}
 
 
-
+add_action( 'admin_enqueue_scripts', 'my_color_picker' );
+function my_color_picker() {
+wp_enqueue_script( 'iris',get_template_directory_uri().'/js/iris.min.js' );
+wp_enqueue_script( 'iris-init',get_template_directory_uri().'/js/iris-init.js' );
+}
+add_action('wp_enqueue_scripts', 'load_jquery_ui');
 /* Add filters */
 add_filter( 'excerpt_more', 'new_excerpt_more', 21 );
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
