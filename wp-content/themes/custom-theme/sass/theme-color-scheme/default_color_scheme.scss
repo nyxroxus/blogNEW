@@ -2,115 +2,79 @@
 @import "tachyons-extended";
 @import "_partials/globals";
 /* Globals */
-body{
-  background-color: $lightergray;
-}
-a{
-  color: $lightred;
-}
-a:hover{
-  color: $darkpurple;
-}
 
-.font-color-misc{
-  color: white;
-}
-.font-color{
-  color: $lightred;
-}
-.font-color:hover{
-  color: $darkpurple;
-}
-.border-color{
-  border-color: $lightred;
-}
-.border-color:hover{
-  border-color: $darkpurple;
-}
-.background-color{
-  background-color: white;
-}
-.custom-excerpt-color{
-  border-color: $lightred;
-}
-.custom-excerpt-color:hover{
-  border-color: $darkpurple;
-}
-.custom-div-color{
-  background-color: white;
-}
-h1,h2,h3,h4,h5,h6{
-  color: $darkpurple;
-}
-p{
- color: $darkpurple;
-}
-article{
-  background-color: white;
-}
-span{
+.default{ background-color: $darkpurple; }
+.default-clean-color{ color: $darkpurple; }
+.default-clean-color{ background-color: $clean; }
+.default-clean-link-color a{ color: $darkpurple!important; }
+.default a{ color: $clean; }
+.default-color-box{ background-color: $transparentgray; }
+.default-blog-font-color{ color: $clean; }
+.default-color-navigation a{ color: $transparentgray; }
+.default-color-navigation a:hover{ color: $darkpurple; }
+.default-color-heading-box{ background-color: $darkpurple; }
+.default-color-heading{ color: $clean; }
+.default-color-author{ background-color: $darkpurple; }
+.default-color-author a{ color: $clean; }
+.default-color-date{ color: $darkpurple; }
+.default-color-footer-navigation{ background-color: $darkpurple; }
+.default-border-color{ border-color: $transparentgray; }
+.default-footer-menu a{ color: white; }
+.default-p-color{ color: white; }
+.default-social-box-color{ background-color: $darkpurple; }
+.default-social-link-color a{ color: $clean; }
+.default-button-color{ background-color: $darkpurple; color: $clean; }
+.default-article-link link{ color: $darkpurple; }
+link{ color: $darkpurple; }
+.avatar{ border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+/* Comments template */
 
-}
-header{
 
-}
-footer{
-  background-color: white;
-}
-aside{
-  background-color: white;
-}
-section{
+#respond { }
+#reply-title { }
+#cancel-comment-reply-link { }
+#commentform { }
+#author { }
+#email { }
+#url { }
+#comment
+#submit
+.comment-notes { text-align: center; }
+.required { }
+.comment-form-author { }
+.comment-form-email { }
+.comment-form-url { }
+.comment-form-comment {  }
+.form-allowed-tags { }
+.form-submit
 
-}
-button{
 
-}
-form{
 
-}
-input{
-
-}
-label{
-
-}
-select{
-
-}
-textarea{
-
-}
-option{
-
-}
-legend{
-
-}
-fieldset{
-
-}
-ul{
-
-}
-ol{
-
-}
-li{
-
-}
-caption{
-
-}
-table{
-
-}
-col{
-
-}
-tr, td, th{
-
-}
-embed, area, figure, frame{
-
-}
+body{}
+a{}
+a:hover{}
+h1,h2,h3,h4,h5,h6{ color: $darkpurple; }
+p{ color: $darkpurple; }
+article{ background-color: white; }
+span{}
+header{}
+footer{}
+aside{}
+section{}
+button{}
+form{}
+input{}
+label{}
+select{}
+textarea{}
+option{}
+legend{}
+fieldset{}
+ul{}
+ol{}
+li{}
+caption{}
+table{}
+col{}
+tr, td, th{}
+embed, area, figure, frame{}

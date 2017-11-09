@@ -70,20 +70,41 @@ function new_excerpt_more($more) {
 /* Here you can stylize how read more link would appear */
 function the_excerpt_more_link( $excerpt ){
   $post = get_post();
-  $excerpt .= '<div class="custom-excerpt-color custom-color br4 pa2 w-60 tc grow center pointer mt4 mb3"><a href="'. get_permalink($post->ID) . '" class="custom-excerpt-color" >Read more</a></div>';
+  $excerpt .= '<div class="default fap bap cah wt br4 pa2 w-60 tc grow center pointer mt4 mb3"><a href="'. get_permalink($post->ID) . '" class="" >Read more</a></div>';
   return $excerpt;
 
 }
 function load_jquery_ui() {
     wp_enqueue_script('jquery-ui-core');
 }
+function wpbeginner_remove_comment_url($arg) {
+    $arg['url'] = '';
+    return $arg;
+}
+function wpb_move_comment_field_to_bottom( $fields ) {
+  $comment_field = $fields['comment'];
+  unset( $fields['comment'] );
+  $fields['comment'] = $comment_field;
+  return $fields;
+  }
+function my_color_picker() {
+  wp_enqueue_script( 'iris',get_template_directory_uri().'/js/iris.min.js' );
+  wp_enqueue_script( 'iris-init',get_template_directory_uri().'/js/iris-init.js' );
+  }
+  function wpsites_modify_comment_form_text_area($arg) {
+      $arg['comment_field'] = '<p class="comment-form-comment"><label for="comment">' . _x( 'Your Feedback Is Appreciated', 'noun' ) . '</label><br><br /><textarea id="comment" style="max-width:400px; min-height:200px; min-width:400px; max-height:200px; height:200px;" name="comment" cols="45" rows="1" aria-required="true"></textarea></p>';
+      return $arg;
+  }
+
+
+
+
+add_filter('comment_form_defaults', 'wpsites_modify_comment_form_text_area');
+add_filter( 'comment_form_fields', 'wpb_move_comment_field_to_bottom' );
+add_filter('comment_form_default_fields', 'wpbeginner_remove_comment_url');
 
 
 add_action( 'admin_enqueue_scripts', 'my_color_picker' );
-function my_color_picker() {
-wp_enqueue_script( 'iris',get_template_directory_uri().'/js/iris.min.js' );
-wp_enqueue_script( 'iris-init',get_template_directory_uri().'/js/iris-init.js' );
-}
 add_action('wp_enqueue_scripts', 'load_jquery_ui');
 /* Add filters */
 add_filter( 'excerpt_more', 'new_excerpt_more', 21 );

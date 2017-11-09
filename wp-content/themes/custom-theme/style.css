@@ -5,3 +5,9 @@ Description: Custom theme
 Version: 1.0
 Tags: tachyons, functional styling, blog theme, blog, orange, blue, white
 */
+/* Avatars in comments */
+/* line 9, sass/style.scss */
+.avatar {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; }
