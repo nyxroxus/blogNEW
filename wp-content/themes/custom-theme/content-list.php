@@ -1,23 +1,18 @@
-<div class="pa3 mt3 bg-white w-70 mb3 shadow-4 fl">
-	<h2 class="pointer">
-    <a class="lightred link" href="<?php the_permalink() ?>">
-      <?php the_title(); ?>
-    </a>
-  </h2>
-		<div class="f7 w-100">
-			<div class="fl dib mt3 pv1 w-20 tc br4 white bg-lightred">
-				<?php the_author() ?>
-			</div>
-			<div class="dib fr tc w-20 lightred">
-				<?php the_date(); ?>
-			</div>
-
+<article class="pa3 mt3 w-70 mb3 shadow-4 fl">
+<h2 class=""><?php the_title(); ?></h2>
+	<div class="f7 w-100">
+		<div class="fl dib pv1 w-20 tc br4 background-color ">
+			<?php the_author_posts_link(); ?>
 		</div>
-
-		<div class="f6 pt4">
-			<?php the_excerpt(); ?>
+		<div class="f6 dib fr tc w-20 font-color">
+			<?php the_date(); ?>
 		</div>
-</div>
+	</div>
+	<div class="f5 mt5 lh-copy pa2">
+		<p class="" style=""><?php the_excerpt(); ?></p>
+	</div>
+</article>
+
 <div class="w-30 fr">
-	<?php get_sidebar(); ?>
+	<?php get_sidebar('front'); ?>
 </div>

@@ -1,8 +1,112 @@
+@import "_partials/colors";
+@import "tachyons-extended";
+@import "_partials/typography";
 
-body, a, li, ul{
-  list-style: none;
+html{
   font-family: 'Montserrat', sans-serif;
 }
-body{
-  background-color: rgba(181, 181, 181, 0.2);
+body, a, li, ul{
+  list-style: none;
+
+}
+.custom-header-text{
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+.custom-header-navigation li{
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  text-align: center;
+}
+.custom-footer-navigation li{
+  display: inline-block;
+  padding: 0 1% 0 1%;
+}
+.custom-footer-navigation ul, .custom-header-navigation ul{
+  padding: 0 0 0 0;
+}
+/* Globals */
+a{
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:hover{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+p{
+
+}
+article{
+
+}
+span{
+
+}
+header{
+
+}
+footer{
+
+}
+aside{
+
+}
+section{
+
+}
+button{
+
+}
+form{
+
+}
+input{
+
+}
+label{
+
+}
+select{
+
+}
+textarea{
+
+}
+option{
+
+}
+legend{
+
+}
+fieldset{
+
+}
+ul{
+
+}
+ol{
+
+}
+li{
+
+}
+caption{
+
+}
+table{
+
+}
+col{
+
+}
+tr, td, th{
+
+}
+embed, area, figure, frame{
+
 }

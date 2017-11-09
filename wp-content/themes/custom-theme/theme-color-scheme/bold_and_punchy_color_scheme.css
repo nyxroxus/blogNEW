@@ -4,15 +4,8 @@
 /* Clear and highlighted color scheme */
 /* Warm tones color scheme */
 /* Bold and punchy color scheme */
-/* Misc colors */
-/* Default color scheme colors */
-/* Fun and profesional color scheme */
-/* Clear and highlighted color scheme */
-/* Warm tones color scheme */
-/* Bold and punchy color scheme */
 /* Tachyons color codes extended */
 /* Background colors */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /* line 6, ../sass/tachyons-extended.scss */
 .bg-redpink {
   background-color: #e21364; }
@@ -105,38 +98,3 @@
 /* line 34, ../sass/tachyons-extended.scss */
 .custom-read-more:hover {
   border-color: white; }
-
-/* line 5, ../sass/_partials/globals.scss */
-html {
-  font-family: 'Montserrat', sans-serif; }
-
-/* line 8, ../sass/_partials/globals.scss */
-body, a, li, ul {
-  list-style: none; }
-
-/* line 12, ../sass/_partials/globals.scss */
-.custom-header-text {
-  position: absolute;
-  top: 80px;
-  left: 50px; }
-
-/* line 17, ../sass/_partials/globals.scss */
-.custom-header-navigation li {
-  display: inline-block;
-  padding: 0 1% 0 1%;
-  text-align: center; }
-
-/* line 22, ../sass/_partials/globals.scss */
-.custom-footer-navigation li {
-  display: inline-block;
-  padding: 0 1% 0 1%; }
-
-/* line 26, ../sass/_partials/globals.scss */
-.custom-footer-navigation ul, .custom-header-navigation ul {
-  padding: 0 0 0 0; }
-
-/* Globals */
-/* line 30, ../sass/_partials/globals.scss */
-a {
-  font-weight: bolder;
-  text-decoration: none; }

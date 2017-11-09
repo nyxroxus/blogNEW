@@ -11,25 +11,28 @@
       <?php  wp_head(); ?>
   </head>
 <body>
-<div class="bb b--redpink w-100 center">
+<div class="w-100 center">
     <div class="w-100 center">
       <?php the_custom_logo(); ?>
     </div>
     <div class="center tc" style="">
       <?php if ( get_header_image() ): ?>
-        <div id="site-header" class="dn dib-l">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+        <div id="site-header" class="dn dib-l background-color">
+
             <img src="<?php header_image(); ?>"
             width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"
             alt="">
-            <div class="custom-header-text dn dib-l">
-              <p class="grow f1"><?php echo get_bloginfo('name'); ?></p>
-              <p class="grow f3"><?php echo get_bloginfo('description'); ?></p>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <div class="custom-header-text tl dn dib-l">
+              <p class="font-color-misc grow f1"><?php echo get_bloginfo('name'); ?></p>
+              <p class="font-color-misc grow f3"><?php echo get_bloginfo('description'); ?></p>
             </div>
-          </a>
+            </a>
         </div>
       <?php endif; ?>
       <!-- Used before: <a class="" href="#"> wp_list_pages( '&title_li=' ); </a> -->
-      <h1 class="f5-l f5 f4-m custom-header-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
+      <nav class="background-color pv2">
+        <h1 class="f5-l f5 f4-m custom-header-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
+      </nav>
     </div>
 </div>

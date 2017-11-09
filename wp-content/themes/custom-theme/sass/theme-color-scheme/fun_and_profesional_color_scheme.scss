@@ -1,0 +1,120 @@
+@import "_partials/colors";
+@import "tachyons-extended";
+@import "_partials/globals";
+/* Globals */
+body{
+  background-color: white;
+}
+a{
+  color: $clean;
+}
+a:hover{
+  color: $clean;
+}
+
+.font-color-misc{
+}
+.font-color{
+  color: $clean;
+}
+.font-color:hover{
+}
+.border-color{
+}
+.border-color:hover{
+}
+.background-color{
+  background-color: $sunshine;
+}
+.custom-excerpt-color{
+  color: $clean;
+}
+.custom-excerpt-color:hover{
+  color: $clean!important;
+}
+.custom-color{
+  background-color: $sunshine;
+}
+.custom-div-color{
+}
+h1,h2,h3,h4,h5,h6{
+  color: $clean;
+}
+p{
+  color: $clean;
+}
+article{
+  background-color: $fresh;
+}
+span{
+
+}
+header{
+
+}
+footer{
+}
+aside{
+  background-color: white;
+}
+aside h1,h2,h3,h4,h5,h6{
+  color: $fresh;
+}
+aside p,ol,li{
+  color: $vermillion;
+}
+
+section{
+
+}
+button{
+
+}
+form{
+
+}
+input{
+
+}
+label{
+
+}
+select{
+
+}
+textarea{
+
+}
+option{
+
+}
+legend{
+
+}
+fieldset{
+
+}
+ul{
+
+}
+ol{
+
+}
+li{
+
+}
+caption{
+
+}
+table{
+
+}
+col{
+
+}
+tr, td, th{
+
+}
+embed, area, figure, frame{
+
+}

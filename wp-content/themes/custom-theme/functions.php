@@ -3,7 +3,7 @@ include('theme_settings_page.php');
 /* Enqueue styles and scripts */
 function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
-  wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/custom_style.css', array(), '1.0.0', 'all' );
+  wp_enqueue_style( get_option("color_scheme"), get_template_directory_uri() . '/theme-color-scheme/'.get_option("color_scheme").'.css', array(), '1.0.0', 'all' );
   wp_enqueue_script( 'customjs', get_template_directory_uri() . 'js/custom.js', array(), '1.0.0', true );
   wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
   wp_enqueue_style('Font_Awesome');
@@ -14,9 +14,8 @@ function custom_theme_custom_header_setup(){
   $args = array(
     'default-image'       =>  get_template_directory_uri() . 'images/default-header-image.jpg',
     'width'               =>  1000,
-    'height'              =>  250,
+    'height'              =>  249,
     'header-text'         =>  true,
-    'default-text-color'  => '#fcfcfc',
     'flex-width'          =>  true,
     'flex-height'         =>  true,
   );
@@ -71,7 +70,7 @@ function new_excerpt_more($more) {
 /* Here you can stylize how read more link would appear */
 function the_excerpt_more_link( $excerpt ){
   $post = get_post();
-  $excerpt .= '<div class="br4 pa2 w-60 tc bg-lightred grow center pointer mt4 mb3"><a href="'. get_permalink($post->ID) . '" class="link white " >Read more</a></div>';
+  $excerpt .= '<div class="custom-excerpt-color custom-color br4 pa2 w-60 tc grow center pointer mt4 mb3"><a href="'. get_permalink($post->ID) . '" class="custom-excerpt-color" >Read more</a></div>';
   return $excerpt;
 
 }
