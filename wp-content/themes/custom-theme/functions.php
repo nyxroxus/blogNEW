@@ -1,5 +1,5 @@
 <?php
-
+include('theme_settings_page.php');
 /* Enqueue styles and scripts */
 function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
@@ -42,18 +42,29 @@ function custom_theme_setup(){
   add_theme_support('menus');
 }
 
-function add_theme_menu_item()
-    {
-        add_menu_page(
-            "Theme Panel",/*title*/
-            "Theme Panel",/*meta title*/
-            "manage_options",/**/
-            "theme-panel",/*slug*/
-            "theme_options_page",
-            null,
-            99
-        );
+/* Add a new function for displaying different color when a different user
+creates a post+ */
+do_action('user_colors');
+function define_user_colors(){
+  if (the_author()  == 'gibanica'){ ?>
+    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-green">
+
+    </div>
+  <?php  }
+  else if(the_author() == 'alisa'){ ?>
+    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-yellow">
+
+    </div>
+  <?php  }
+  else if(the_author() == 'sexmashine'){ ?>
+    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-orange">
+
+    </div>
+  <?php  }
+  else{
+  }
 }
+add_action('user_colors', 'define_user_colors');
 function new_excerpt_more($more) {
   return $more;
 }
@@ -65,12 +76,14 @@ function the_excerpt_more_link( $excerpt ){
 
 }
 
+
+
 /* Add filters */
 add_filter( 'excerpt_more', 'new_excerpt_more', 21 );
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
 
 /* Add action */
-add_action( 'admin_menu', 'add_theme_menu_item' );
+
 add_action( 'after_setup_theme', 'custom_theme_custom_header_setup' );
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 add_action( 'after_setup_theme', 'customtheme_custom_logo_setup' );
