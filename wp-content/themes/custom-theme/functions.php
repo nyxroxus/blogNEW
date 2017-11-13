@@ -98,9 +98,15 @@ function my_color_picker() {
       $arg['comment_field'] = '<p class="comment-form-comment"><label for="comment">' . _x( 'Your Feedback Is Appreciated', 'noun' ) . '</label><br><br /><textarea id="comment" style="max-width:400px; min-height:200px; min-width:400px; max-height:200px; height:200px;" name="comment" cols="45" rows="1" aria-required="true"></textarea></p>';
       return $arg;
   }
+  if ( function_exists( 'add_theme_support' ) ) {
+      add_theme_support( 'post-thumbnails' );
+      set_post_thumbnail_size( 150, 150, true ); // default Featured Image dimensions (cropped)
 
-
-
+      // additional image sizes
+      // delete the next line if you do not need additional image sizes
+      add_image_size( 'category-header', 1300, 9999 ); // 300 pixels wide (and unlimited height)
+   }
+add_theme_support( 'post-thumbnails' );
 
 add_filter('comment_form_defaults', 'wpsites_modify_comment_form_text_area');
 add_filter( 'comment_form_fields', 'wpb_move_comment_field_to_bottom' );
