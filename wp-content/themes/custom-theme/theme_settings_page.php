@@ -30,6 +30,17 @@ function global_custom_options()
 		<option value="bold_and_punchy_color_scheme" <?php selected(get_option('color_scheme'), "bold_and_punchy_color_scheme"); ?>>Bold and punchy color scheme(Papaya/Mustard/Blush/Aqua)</option>
 	</select>
 </p>
+<p><strong>Select the blog font</strong><br />
+	<select class="select_font" name="select_font" id="select_font">
+		<option value="font-one" <?php selected(get_option('select_font'), "font-one"); ?>>Monseratt</option>
+
+		<option value="font-two" <?php selected(get_option('select_font'), "font-two"); ?>>Roboto</option>
+
+		<option value="font-three" <?php selected(get_option('select_font'), "font-three"); ?>>Raleway</option>
+
+		<option value="font-four" <?php selected(get_option('select_font'), "font-four"); ?>>Titilium Web</option>
+	</select>
+</p>
 <p><strong>Change website title</strong><br />
 	<input type="text" name="blogname" value="<?php echo get_option('blogname') ?>" />
   <input type="text" name="" value="" class="color-field"/>
@@ -38,7 +49,7 @@ function global_custom_options()
 </p>
 <p><input type="submit" name="Submit" value="Store Options" /></p>
 <input type="hidden" name="action" value="update" />
-<input type="hidden" name="page_options" value="twitterid, color_scheme, blogname" />
+<input type="hidden" name="page_options" value="twitterid, color_scheme, blogname, select_font" />
 </form>
 </div>
 

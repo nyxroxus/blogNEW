@@ -4,6 +4,9 @@ include('theme_settings_page.php');
 function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
   wp_enqueue_style( get_option("color_scheme"), get_template_directory_uri() . '/theme-color-scheme/'.get_option("color_scheme").'.css', array(), '1.0.0', 'all' );
+
+  wp_enqueue_style( get_option("select_font"), get_template_directory_uri() . '/fonts/'.get_option("select_font").'.css', array(), '1.0.0', 'all' );
+
   wp_enqueue_script( 'customjs', get_template_directory_uri() . 'js/custom.js', array(), '1.0.0', true );
   wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
   wp_enqueue_style('Font_Awesome');
@@ -13,8 +16,8 @@ function custom_theme_enqueue_scripts(){
 function custom_theme_custom_header_setup(){
   $args = array(
     'default-image'       =>  get_template_directory_uri() . 'images/default-header-image.jpg',
-    'width'               =>  1000,
-    'height'              =>  249,
+    'width'               =>  1920,
+    'height'              =>  350,
     'header-text'         =>  true,
     'flex-width'          =>  true,
     'flex-height'         =>  true,

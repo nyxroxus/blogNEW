@@ -2,3 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+/* line 2, ../sass/fonts/font-two.scss */
+html {
+  font-family: "Roboto", sans-serif !important; }

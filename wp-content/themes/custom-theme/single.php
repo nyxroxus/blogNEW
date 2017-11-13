@@ -1,11 +1,11 @@
 <?php get_header(); ?>
-<article class="clear w-100 center pt3">
+<article class="clear w-80 center pt3">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <div class="tc f2">
+  <div class="tc f2 default-color-date">
     <?php the_title(); ?>
   </div>
-  <div class="pa2 default" style="overflow: auto;">
+  <div class="pa2 default br-pill mt3" style="overflow: auto;">
     <div class="w-90 center">
       <div class="dib fl pa2 br4 default-clean-color">
         <div class="default-clean-link-color">
@@ -24,16 +24,16 @@
       </div>
     </div>
   </div>
-  <div class="w-80 center">
+  <div class="w-80 center f4">
     <?php the_content(); ?>
   </div>
   <div class="w-100 center">
     <div class="tc">
-      <input type='button' style="border: none!important;" class="pa3 w-100 default-button-color" id='hideshow' value='View comments'>
+      <input type='button' style="border: none!important;" class="br-pill pa3 w-100 default-button-color" id='hideshow' value='View comments'>
     </div>
 
 
-    <div id='comments' class="center w-90 bg-red mt3">
+    <div id='comments' class="center w-90 mt3">
       <?php
       if ( comments_open() || get_comments_number() ) {
         comments_template();

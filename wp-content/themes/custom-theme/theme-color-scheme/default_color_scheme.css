@@ -12,7 +12,6 @@
 /* Bold and punchy color scheme */
 /* Tachyons color codes extended */
 /* Background colors */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /* line 6, ../sass/tachyons-extended.scss */
 .bg-redpink {
   background-color: #e21364; }
@@ -213,37 +212,33 @@
 .custom-read-more:hover {
   border-color: white; }
 
-/* line 5, ../sass/_partials/globals.scss */
-html {
-  font-family: 'Montserrat', sans-serif; }
-
-/* line 8, ../sass/_partials/globals.scss */
+/* line 4, ../sass/_partials/globals.scss */
 body, a, li, ul {
   list-style: none; }
 
-/* line 12, ../sass/_partials/globals.scss */
+/* line 8, ../sass/_partials/globals.scss */
 .custom-header-text {
   position: absolute;
   top: 140px;
   left: 50px; }
 
-/* line 17, ../sass/_partials/globals.scss */
+/* line 13, ../sass/_partials/globals.scss */
 .custom-header-navigation li {
   display: inline-block;
   padding: 0 1% 0 1%;
   text-align: center; }
 
-/* line 22, ../sass/_partials/globals.scss */
+/* line 18, ../sass/_partials/globals.scss */
 .custom-footer-navigation li {
   display: inline-block;
   padding: 0 1% 0 1%; }
 
-/* line 26, ../sass/_partials/globals.scss */
+/* line 22, ../sass/_partials/globals.scss */
 .custom-footer-navigation ul, .custom-header-navigation ul {
   padding: 0 0 0 0; }
 
 /* Globals */
-/* line 30, ../sass/_partials/globals.scss */
+/* line 26, ../sass/_partials/globals.scss */
 a {
   font-weight: bolder;
   text-decoration: none; }
@@ -349,20 +344,89 @@ link {
   -webkit-border-radius: 50%; }
 
 /* Comments template */
+/* line 33, ../sass/theme-color-scheme/default_color_scheme.scss */
+.commentlist .even .comment {
+  background-color: #ccddf2; }
+
+/* line 36, ../sass/theme-color-scheme/default_color_scheme.scss */
+.commentlist .odd .comment {
+  background-color: #CCCCCC; }
+
 /* line 40, ../sass/theme-color-scheme/default_color_scheme.scss */
+#comment-body {
+  margin-bottom: 4%; }
+
+/* line 41, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment {
+  margin-top: 4%;
+  padding-bottom: 2%; }
+
+/* line 42, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-author cite {
+  vertical-align: top;
+  margin-top: 10px; }
+
+/* line 43, ../sass/theme-color-scheme/default_color_scheme.scss */
+.says {
+  display: none; }
+
+/* line 44, ../sass/theme-color-scheme/default_color_scheme.scss */
+.url {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+  color: #364c62; }
+
+/* line 45, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-author {
+  display: inline-block;
+  float: left; }
+
+/* line 46, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-meta {
+  display: inline-block;
+  float: right; }
+
+/* line 47, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-reply-link {
+  clear: both;
+  background-color: #364c62;
+  border-radius: 105px;
+  padding: 1% 2% 1% 2%;
+  color: white; }
+
+/* line 48, ../sass/theme-color-scheme/default_color_scheme.scss */
+.reply {
+  text-align: center;
+  margin-top: 50px; }
+
+/* line 49, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-meta a {
+  color: #364c62; }
+
+/* line 50, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment-edit-link {
+  clear: both; }
+
+/* line 51, ../sass/theme-color-scheme/default_color_scheme.scss */
+.comment p {
+  clear: both;
+  padding-top: 1%; }
+
+/* line 59, ../sass/theme-color-scheme/default_color_scheme.scss */
 #comment
 #submit
 .comment-notes {
   text-align: center; }
 
-/* line 56, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 75, ../sass/theme-color-scheme/default_color_scheme.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #364c62; }
 
-/* line 57, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 76, ../sass/theme-color-scheme/default_color_scheme.scss */
 p {
   color: #364c62; }
 
-/* line 58, ../sass/theme-color-scheme/default_color_scheme.scss */
+/* line 77, ../sass/theme-color-scheme/default_color_scheme.scss */
 article {
   background-color: white; }

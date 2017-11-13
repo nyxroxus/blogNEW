@@ -30,6 +30,25 @@ link{ color: $darkpurple; }
 /* Comments template */
 
 
+.commentlist .even .comment {
+background-color:#ccddf2;
+}
+.commentlist .odd .comment {
+background-color:#CCCCCC;
+}
+.fn{  }
+#comment-body{ margin-bottom: 4%; }
+.comment { margin-top: 4%; padding-bottom: 2%; }
+.comment-author cite{ vertical-align: top; margin-top: 10px; }
+.says{ display: none; }
+.url{ display: inline-block; vertical-align: top; padding-top: 7px; color: $darkpurple;}
+.comment-author{ display: inline-block; float: left; }
+.comment-meta{ display: inline-block; float: right; }
+.comment-reply-link{ clear: both; background-color: $darkpurple; border-radius: 105px; padding: 1% 2% 1% 2%; color: white; }
+.reply{ text-align: center; margin-top: 50px;}
+.comment-meta a{ color: $darkpurple; }
+.comment-edit-link{ clear: both; }
+.comment p{ clear: both; padding-top: 1%; }
 #respond { }
 #reply-title { }
 #cancel-comment-reply-link { }
