@@ -1,5 +1,5 @@
 <article class="mt3 w-70 mb3 shadow-4 fl">
-	<div class="bg-red default-color-heading-box">
+	<div class="default-color-heading-box">
 		<h2 class="ph3 pv2 default-color-heading"><?php the_title(); ?></h2>
 	</div>
 	<div class="f7 w-100 ph2">
@@ -16,5 +16,5 @@
 </article>
 
 <div class="w-30 fr">
-	<?php get_sidebar('front'); ?>
+	<?php get_sidebar(); ?>
 </div>

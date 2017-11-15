@@ -1,12 +1,7 @@
 <?php get_header(); ?>
 <article class="clear w-80 center pt3">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<?php if ( has_post_thumbnail()) : ?>
-  <div class="">
-    <?php the_post_thumbnail('category-header'); ?>
-  </div>
 
-<?php endif; ?>
   <div class="tc f2 default-color-date">
     <?php the_title(); ?>
   </div>
@@ -29,6 +24,11 @@
       </div>
     </div>
   </div>
+  <?php if ( has_post_thumbnail()) : ?>
+    <div class="mt4 tc">
+      <?php the_post_thumbnail('category-header'); ?>
+    </div>
+  <?php endif; ?>
   <div class="w-80 center f4">
     <?php the_content(); ?>
   </div>

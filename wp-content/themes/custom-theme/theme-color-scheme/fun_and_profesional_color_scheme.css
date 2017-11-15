@@ -225,7 +225,7 @@ body, a, li, ul {
 /* line 13, ../sass/_partials/globals.scss */
 .custom-header-navigation li {
   display: inline-block;
-  padding: 0 1% 0 1%;
+  padding: 0 3% 0 2%;
   text-align: center; }
 
 /* line 18, ../sass/_partials/globals.scss */

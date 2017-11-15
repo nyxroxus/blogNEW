@@ -11,6 +11,7 @@
       $the_query -> the_post();
       if($check_man == '1' ){ get_template_part( 'content', 'masonry' ); }
       else if($check_man == '2'){ get_template_part( 'content', 'list' ); }
+      else if($check_man == '3'){ get_template_part( 'content', 'test' ); }
       else{ get_template_part( 'content', 'none' ); }
   ?>
   <?php endwhile; wp_reset_postdata(); ?>

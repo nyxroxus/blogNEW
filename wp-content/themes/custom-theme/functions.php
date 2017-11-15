@@ -4,9 +4,7 @@ include('theme_settings_page.php');
 function custom_theme_enqueue_scripts(){
   wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
   wp_enqueue_style( get_option("color_scheme"), get_template_directory_uri() . '/theme-color-scheme/'.get_option("color_scheme").'.css', array(), '1.0.0', 'all' );
-
   wp_enqueue_style( get_option("select_font"), get_template_directory_uri() . '/fonts/'.get_option("select_font").'.css', array(), '1.0.0', 'all' );
-
   wp_enqueue_script( 'customjs', get_template_directory_uri() . 'js/custom.js', array(), '1.0.0', true );
   wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
   wp_enqueue_style('Font_Awesome');
@@ -46,27 +44,7 @@ function custom_theme_setup(){
 
 /* Add a new function for displaying different color when a different user
 creates a post+ */
-do_action('user_colors');
-function define_user_colors(){
-  if (the_author()  == 'gibanica'){ ?>
-    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-green">
 
-    </div>
-  <?php  }
-  else if(the_author() == 'alisa'){ ?>
-    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-yellow">
-
-    </div>
-  <?php  }
-  else if(the_author() == 'sexmashine'){ ?>
-    <div class="fl dib mt3 pv1 w-20 tc br4 white bg-orange">
-
-    </div>
-  <?php  }
-  else{
-  }
-}
-add_action('user_colors', 'define_user_colors');
 function new_excerpt_more($more) {
   return $more;
 }
@@ -100,11 +78,28 @@ function my_color_picker() {
   }
   if ( function_exists( 'add_theme_support' ) ) {
       add_theme_support( 'post-thumbnails' );
-      set_post_thumbnail_size( 150, 150, true ); // default Featured Image dimensions (cropped)
 
-      // additional image sizes
-      // delete the next line if you do not need additional image sizes
-      add_image_size( 'category-header', 1300, 9999 ); // 300 pixels wide (and unlimited height)
+      set_post_thumbnail_size(  ); // default Featured Image dimensions (cropped)
+      // Add featured image sizes
+      add_image_size( 'featured-large', 1040, 500, true ); // width, height, crop
+      add_image_size( 'featured-small', 340, 190, true );
+      add_image_size( 'category-header', 1040, 500 );
+      // Add other useful image sizes for use through Add Media modal
+      add_image_size( 'medium-width', 480 );
+      add_image_size( 'medium-height', 9999, 480 );
+      add_image_size( 'medium-something', 480, 480 );
+
+      // Register the three useful image sizes for use in Add Media modal
+      add_filter( 'image_size_names_choose', 'wpshout_custom_sizes' );
+
+   }
+
+   function wpshout_custom_sizes( $sizes ) {
+       return array_merge( $sizes, array(
+           'medium-width' => __( 'Medium Width' ),
+           'medium-height' => __( 'Medium Height' ),
+           'medium-something' => __( 'Medium Something' ),
+       ) );
    }
 add_theme_support( 'post-thumbnails' );
 

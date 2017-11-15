@@ -1,4 +1,4 @@
-<footer class="clear bw2 w-100 ph5 pv2 custom-footer-navigation default-color-footer-navigation">
+<footer class="bw2 w-100 ph5 pv2 custom-footer-navigation default-color-footer-navigation" style="clear:both;">
   <div class="w-80 center tc">
     <h1 class="f2-l f4-m f3 tc default-footer-menu">
       <?php wp_nav_menu( array( 'theme_location'  => 'secondary', 'container_class' => 'secondary_menu' ) ); ?>

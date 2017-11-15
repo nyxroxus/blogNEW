@@ -31,8 +31,24 @@
         </div>
       <?php endif; ?>
       <!-- Used before: <a class="" href="#"> wp_list_pages( '&title_li=' ); </a> -->
-      <nav class="">
-        <h1 class="f5-l f5 f4-m custom-header-navigation default-color-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
+      <nav class="w-100">
+        <div class=""><!-- On other color schemes color this -->
+          <h1 class="tl w-80 dib f4-l f5 f4-m custom-header-navigation default-color-navigation"><?php wp_nav_menu( array( 'theme_location'  => 'primary', 'container_class' => 'primary_menu' ) ); ?></h1>
+          <div class="w-10 dib">
+            <i class="tl fa fa-search pointer f4 default-color-search" id="hideshow"></i>
+          </div>
+        </div>
+
+        <div class="dn" id="search-form">
+          <?php get_search_form(); ?>
+        </div>
       </nav>
+      <script>
+      jQuery(document).ready(function(){
+          jQuery('#hideshow').live('click', function(event) {
+               jQuery('#search-form').toggle('show');
+          });
+      });
+      </script>
     </div>
 </div>

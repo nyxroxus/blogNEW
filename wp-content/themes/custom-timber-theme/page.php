@@ -19,5 +19,4 @@
  // Using the TimberImage() function
  // to retrieve the image via its ID i.e 8
  $context['custom_img'] = new TimberImage( 'image_id' );
- $name['name_change'] = Timber::get_context(function('get_option', 'blogname'));
  Timber::render( 'page.twig', $context );
