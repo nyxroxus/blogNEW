@@ -10,6 +10,14 @@ function custom_theme_enqueue_scripts(){
   wp_enqueue_style('Font_Awesome');
 }
 
+function SearchFilter($query) {
+    if ($query->is_search) {
+        $query->set('post_type', 'post');
+    }
+    return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
+
 /* Functions */
 function custom_theme_custom_header_setup(){
   $args = array(

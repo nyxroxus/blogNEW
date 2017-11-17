@@ -109,29 +109,29 @@
 body, a, li, ul {
   list-style: none; }
 
-/* line 8, ../sass/_partials/globals.scss */
+/* line 11, ../sass/_partials/globals.scss */
 .custom-header-text {
   position: absolute;
   top: 140px;
   left: 50px; }
 
-/* line 13, ../sass/_partials/globals.scss */
+/* line 16, ../sass/_partials/globals.scss */
 .custom-header-navigation li {
   display: inline-block;
   padding: 0 3% 0 2%;
   text-align: center; }
 
-/* line 18, ../sass/_partials/globals.scss */
+/* line 21, ../sass/_partials/globals.scss */
 .custom-footer-navigation li {
   display: inline-block;
   padding: 0 1% 0 1%; }
 
-/* line 22, ../sass/_partials/globals.scss */
+/* line 25, ../sass/_partials/globals.scss */
 .custom-footer-navigation ul, .custom-header-navigation ul {
   padding: 0 0 0 0; }
 
 /* Globals */
-/* line 26, ../sass/_partials/globals.scss */
+/* line 29, ../sass/_partials/globals.scss */
 a {
   font-weight: bolder;
   text-decoration: none; }

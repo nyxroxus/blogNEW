@@ -4,19 +4,32 @@
 /* Globals */
 
 .default{ background-color: $darkpurple; }
+.default-clean{ color: $clean; }
 .default-clean-color{ color: $darkpurple; }
 .default-clean-color{ background-color: $clean; }
 .default-clean-link-color a{ color: $darkpurple!important; }
 .default a{ color: $clean; }
 .default-color-box{ background-color: $transparentgray; }
 .default-blog-font-color{ color: $clean; }
+
 .default-color-navigation a{ color: $transparentgray; }
 .default-color-navigation a:hover{ color: $darkpurple; }
 .default-color-search { color: $transparentgray; }
 .default-color-search:hover{ color: $darkpurple; }
+
+.default-navigation-bg-color{ background-color: $darkpurple; }
+.default-color-navigation-inverted a{ color: $clean; }
+.default-color-navigation-inverted a:hover{ color: white; }
+.default-color-search-inverted{ color: $clean; }
+.default-color-search-inverted:hover{ color: white; }
+
+.default-color-anchor{ color: $clean; }
+.default-author-top-color{ background-color: $darkpurple; }
 .default-color-heading-box{ background-color: $darkpurple; }
 .default-color-heading{ color: $clean; }
 .default-color-author{ background-color: $darkpurple; }
+.default-color-author p{ color: $clean; }
+.default-color-bg-comments{ background-color: $darkpurple; }
 .default-color-author a{ color: $clean; }
 .default-color-date{ color: $darkpurple; }
 .default-color-footer-navigation{ background-color: $darkpurple; }
@@ -31,7 +44,7 @@ link{ color: $darkpurple; }
 .avatar{ border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
 /* Comments template */
 
-
+.sub-menu{ display: none; }
 .commentlist .even .comment {
 background-color:#ccddf2;
 }
@@ -43,11 +56,12 @@ background-color:#CCCCCC;
 .comment { margin-top: 4%; padding-bottom: 2%; }
 .comment-author cite{ vertical-align: top; margin-top: 10px; }
 .says{ display: none; }
-.url{ display: inline-block; vertical-align: top; padding-top: 7px; color: $darkpurple;}
+.url{ display: inline-block; vertical-align: top; padding-top: 7px; color: $darkpurple; padding-left: 7px;}
+.odd{ .comment-author{ display: inline-block; float: right; } .comment-meta{ display: inline-block; float: left; } .url{ float: left; padding-right: 7px;} }
 .comment-author{ display: inline-block; float: left; }
-.comment-meta{ display: inline-block; float: right; }
-.comment-reply-link{ clear: both; background-color: $darkpurple; border-radius: 105px; padding: 1% 2% 1% 2%; color: white; }
-.reply{ text-align: center; margin-top: 50px;}
+.comment-meta{ display: inline-block; float: right; padding-top: 11px; }
+.comment-reply-link{  clear: both; background-color: $darkpurple; border-radius: 105px; padding: 1% 2% 1% 2%; color: white; }
+.reply{ display: none; text-align: center; margin-top: 50px;}
 .comment-meta a{ color: $darkpurple; }
 .comment-edit-link{ clear: both; }
 .comment p{ clear: both; padding-top: 1%; }
@@ -69,7 +83,7 @@ background-color:#CCCCCC;
 .form-allowed-tags { }
 .form-submit
 
-
+.screen-reader-text{ color: $clean; }
 
 body{}
 a{}

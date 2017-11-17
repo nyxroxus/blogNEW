@@ -13,6 +13,10 @@
         <div class="mt2 dib pa1 br4 ph3 fr default-color-author">
           <?php the_author_posts_link(); ?>
         </div>
+
+        <div class="mt2 dib mr2 pa1 br4 ph3 fr default-color-author">
+          <a href="#"><?php comments_number( 'no comments', '1 comment', '2+' ); ?></a>
+        </div>
       </div>
     </div>
 
