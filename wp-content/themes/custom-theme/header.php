@@ -18,19 +18,18 @@
     <div class="center tc" style="">
       <?php if ( get_header_image() ): ?>
         <div id="site-header" class="dn dib-l">
-
-            <img src="<?php header_image(); ?>"
-            width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"
-            alt="">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <div class="custom-header-text tl dn dib-l default-color-box ph5 br2">
-              <p class="grow f2 default-blog-font-color"><?php echo get_bloginfo('name'); ?></p>
-              <p class="grow f4 default-blog-font-color"><?php echo get_bloginfo('description'); ?></p>
+          <div class="bg-black">
+            
             </div>
             </a>
+          </div>
+
         </div>
       <?php endif; ?>
       <!-- Used before: <a class="" href="#"> wp_list_pages( '&title_li=' ); </a> -->
       <?php get_template_part('navigation') ?>
+      <?php if( get_field('image_id') ): ?>
+  	     <img src="<?php the_field('image_id'); ?>" />.
+      <?php endif; ?>
     </div>
 </div>

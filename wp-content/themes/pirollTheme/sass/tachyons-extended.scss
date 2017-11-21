@@ -1,0 +1,38 @@
+@import "_partials/fonts/colors";
+
+/* Tachyons color codes extended */
+
+/* Background colors */
+.bg-redpink { background-color: $redpink; }
+.bg-transwhite { background-color: $transparentwhite; }
+.bg-lightred { background-color: $lightred; }
+.bg-darkpurple { background-color: $darkpurple; }
+.bg-lightergray { background-color: $lightergray; }
+.bg-darkergray { background-color: $darkergray; }
+
+
+
+/* Text colors */
+.neonblue { color: $neonblue; }
+.fresh { color: $fresh; }
+.clean { color: $clean; }
+.redpink { color: $redpink; }
+.dustywhite { color: $dustywhite; }
+.darkergray { color: $darkergray; }
+.lightred { color: $lightred; }
+.darkpurple { color: $darkpurple; }
+.lightgray { color: $lightergray; }
+
+/* Border colors */
+.b--transwhite { border-color: $transparentwhite; }
+.b--redpink { border-color: $redpink; }
+.b--lightred { border-color: $lightred; }
+.b--darkpurple { border-color: $darkpurple; }
+.c-bt--dashed { border-top-style: dashed; }
+.c-bb--dashed { border-bottom-style: dashed; }
+
+/* Tachyons classes extended */
+.custom-color-hover{ background-color: white; .custom-color, a{ color: $darkpurple; } }
+.custom-color-hover:hover{ background-color: $lightred; .custom-color, a{ color: white; } }
+.custom-read-more{ border-color: $darkpurple; }
+.custom-read-more:hover{ border-color: white; }

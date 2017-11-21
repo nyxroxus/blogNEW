@@ -19,8 +19,7 @@ function global_custom_options()
 </p>
 <p><strong>Change link color</strong></p>
 <p><strong>Update header image</strong>
-  <input type="file" name="logo" />
-  <button class="button wpse-228085-upload">Upload</button>
+  
 </p>
 <p><strong>Select the color scheme</strong><br />
 	<select class="select_color_scheme" name="color_scheme" id="color_scheme">
@@ -65,6 +64,7 @@ add_action('admin_enqueue_scripts', function(){
     */
     wp_enqueue_media();
 });
+
 add_action('admin_footer', function() {
 
     /*

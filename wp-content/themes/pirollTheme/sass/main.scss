@@ -1,0 +1,41 @@
+@import "_partials/fonts/fonts.scss";
+@import "tachyons-extended.scss";
+*{
+  padding: 0;
+  margin: 0;
+  margin: 0 0 0 0!important;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Primary navigation */
+.main-menu li{
+  list-style: none;
+  padding: 0 20px 0 40px!important;
+  display: inline-block;
+  text-align: center;
+}
+.main-menu a{
+  color: black;
+}
+.main-menu a:hover{
+  color: $neonblue;
+}
+/* Footer menu */
+.menu ul, li{
+  padding: 0 0 0 0!important;
+}
+.footer-menu li{
+  list-style: none;
+  padding: 0 0 0 0;
+}
+.footer-menu a{
+  color: $clean;
+}
+.footer-menu a:hover{
+  color: $neonblue;
+}
+.custom-header-text{
+  position: absolute;
+  top: 230px;
+  left: 100px;
+}
