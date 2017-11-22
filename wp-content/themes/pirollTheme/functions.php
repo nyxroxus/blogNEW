@@ -47,4 +47,12 @@ function piroll_header_image_setup(){
 }
 add_action( 'after_setup_theme', 'piroll_header_image_setup' );
 
+/* Theme support for thumbnail images */
+function piroll_post_thumbnail_setup_theme() {
+    add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 150, 150 );
+    add_image_size( 'small', 250, 250 );
+    add_image_size( 'wordpress-thumbnail', 350, 300, TRUE );
+}
+add_action( 'after_setup_theme', 'piroll_post_thumbnail_setup_theme' );
 ?>

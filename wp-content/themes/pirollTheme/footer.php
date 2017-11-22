@@ -1,8 +1,7 @@
-<footer class="bg-darkergray pa4" style="overflow: auto;">
+<footer class="bg-darkergray pa4" style="overflow: auto; clear: both;">
   <div class="w-40 fr pl6">
     <?php get_template_part('navigation', 'footer'); ?>
   </div>
-
   <div class="w-60 ">
     <div class="w-40 fr tc clean pt4">
       <p class="clean">Phone: +40 728 835 235</p>

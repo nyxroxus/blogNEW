@@ -1,0 +1,34 @@
+.media_up_choose_effect{cursor: pointer;cursor: hand;}
+.on-media-uploader .modal-dialog{ overflow-y: initial !important }
+.on-media-uploader .modal-body{height: 450px;overflow-y: auto; }
+.on-media-uploader .modal-header{background-color:#f1c40f;font-size:16px;}
+.on-media-uploader .modal-title{font-weight:normal;}
+.on-media-uploader #set-effect-for-caption{color: #fff!important;
+background-color: #33495e!important;border-radius:none!important;}
+.fc-tabs-list li a.active{}
+.fc-tabs-list li a{text-decoration:none;}
+.fc-tabs-container .fc-3{cursor: pointer;cursor: hand;}
+.effectinfo{float:left; width:100%; margin-top:3px;}
+.ih-item.circle{ margin:0 auto;}
+.effect-information{ padding:5px;  margin-bottom:5px; float:left; width:100%;border:1px solid #fff; }
+.selected-caption-effect .effect-information{border:1px solid #ccc; padding:5px; background:#f5f4f2;}
+#tab_Ihover_Circular_Image_Hover_Effects .effectinfo{
+	text-align:center;}
+.compat-attachment-fields tr.compat-field-att_caption_final_shortcode,.compat-attachment-fields tr.compat-field-att_caption_hover_effecttype{display:none;}	
+.dynamic-tab-content .scalable_imagehover_effects h2 a{text-decoration:none;color:#fff!important;}
+.dynamic-tab-content .scalable_imagehover_effects h2{color:#fff!important;}
+.dynamic-tab-content .scalable_imagehover_effects .effect-steve h2{color:#2d434e!important;}
+.slide_text_position{width:100%;}
+.final-selected-caption-effect .effectname{display:none;}
+.dynamic-tab-content .square-imagehover .square{width:250px;}
+.iris-picker, .iris-picker * {
+-moz-box-sizing: content-box !important;
+-webkit-box-sizing: content-box !important;
+box-sizing: content-box !important;
+}
+#preview-effect-for-caption .iris-border{border:none!important;}
+#preview-effect-for-caption .iris-strip{display:none!important;}
+#preview-effect-for-caption .iris-square{width:98%!important;}
+.overlay-choices{margin-top:10px;}
+.image-hover-effects-metabox .mb-control{margin-bottom:10px;}
+.wpb_vc_param_value.is_shortocode_vc{display:none;}

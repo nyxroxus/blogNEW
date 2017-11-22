@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Overlays\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-03 18:02+0530\n"
+"PO-Revision-Date: 2017-10-25 14:08+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: flippercode <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:219
+msgid "Use This Color As Priority."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:222
+msgid ""
+"Set current post's featured image overlay color from here to take priority "
+"for this particular post only."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:265
+msgid "Upload Custom Image - This option is for using custom image."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:266
+msgid ""
+"Post Id- Specifying a post id will automatically return the image url of "
+"featured image of that post."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:267
+msgid ""
+"Attachment Id - If you want to show any image by its attachment id, pass id."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:325
+msgid "Image Hover Effect Overlay Color"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:328
+msgid "Set color from here."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:333
+msgid "Top Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:334
+msgid "Top Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:335
+msgid "Bottom Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:336
+msgid "Bottom Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:337
+msgid "Center"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:343
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:344
+msgid "Text position in the overlays."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:353
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:205
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:162
+msgid "Animation Speed"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:365
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:210
+msgid "Hover Effect Width"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:377
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:219
+msgid "Hover Effect Height"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:390
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:224
+msgid "Opacity"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:403
+msgid "Set Overlay Text Position From Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:406
+msgid "Set Overlay Animation Speed From Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:410
+msgid "Set Overlay Width From Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:414
+msgid "Set Overlay Height From Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:418
+msgid "Set Overlay Opacity From Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:436
+msgid ""
+"Select from the below post types for which you want to apply this effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:935
+msgid "Product Left : "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:992
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1002
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1070
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1162
+msgid "Add Awesome Image Hover Effects"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1165
+msgid "Content"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1166
+msgid "Awesome Effects"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1184
+msgid "Hover Effect Removed For Post Type "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1302
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1478
+msgid "Are you sure to delete item?"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1370
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/image-hover-effects-pro.php:1371
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/view.php:11
+msgid "Image Hover Effects Pro"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:18
+msgid "WP Image Hover Effect Pro - Documentation"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:22
+msgid ""
+"When this plugin gets activated, nice looking image hover effects are "
+"automatically applied to the featured images of all post types whether it is "
+"wordpress's default post type or custom post type including woocommerce "
+"products also."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:24
+msgid " of the plugin can be changed from this page."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:25
+msgid ""
+"You will see the current hover effect applied for each post type on this "
+"page and you can also customise the effect, if it is a customisable effect "
+"by the \"Customise This Effect\" button or you can select a new effect from "
+"the "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:25
+msgid ""
+" Other general setting related to hover effects on featured images are also "
+"manageable from here."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:27
+msgid "contains a list of hover effects that can be applied to any post type."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:30
+msgid ""
+"Given below is the minimum parameters form that the shortcode can take to "
+"show hover effect on featured image of any post,page,cpt or woocommerce "
+"product. The only parameter we need to give is a valid id of post/page/"
+"product. The shortcode will show the featured image of that post with its "
+"current effect that can be seen on general settings page."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:31
+msgid ""
+"Minimal shortcode form for showing featured image of any post/page/cpt or "
+"woocommerce product with hover effects :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:35
+msgid ""
+"The above shortcode will automatically apply the hover effect on image "
+"according to the settings saved from setting page."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:37
+msgid "Minimal shortcode form for showing custom image with hover effects :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:43
+msgid ""
+"In the above form both parameters can take different values. Above form only "
+"shows a basic usage. Effect type and effect can be changed. Below you will a "
+"complete list of hover effect types and its effect."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:45
+msgid " Hover Effects Types This Plugins Provides: "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:45
+msgid ""
+"There are four types of effect types you can apply on post/pages/woocommerce "
+"products or on any custom image. Effect type is only a type and it has many "
+"associated \"effects\" that can be applied with it."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:47
+msgid "Default ImageHover Effect :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:50
+msgid ""
+"This is type of effect in which a custom overlay comes over the image. This "
+"overlay is fully customisable with almost every property like overlaycolor,"
+"animation speed,width,height,overlay content location,opacity etc. This "
+"effect has a \"in\" effect and a \"out\" effect. In effect works when we "
+"hover mouse over the image and out effect works when the cursor is taken "
+"away from image. Below is a sample shortcode for better understanding of how "
+"this effect can be used :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:59
+msgid ""
+"This hover effects supports certain placeholders that can be used to show "
+"dynamic information on the overlay. Below is a list of supported "
+"placeholder. These placeholders works only when the hover effect type is "
+"\"Default ImageHover Effect\""
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:61
+msgid ""
+"You can modify hover effect content using \"Hover Effect Content\" input "
+"field.  Use following placeholder to display posts information or your own "
+"html content in the overlays."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:73
+msgid ""
+"For woocommerce products, below is the list of placeholder that can be used "
+"to show information associated with products on custom overlay."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:88
+msgid "Scalable Imagehover Effects :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:90
+msgid ""
+"These are the fancy image hover effects which applies very nice image hover "
+"effects to image when mouse cursor is hovered on image. For showing an image "
+"with this effect we just need to pass the minimum shortcode parameters. "
+"Below is an example how to use this effect."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:96
+msgid "Circular Image Effects :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:98
+msgid ""
+"These are the fancy circular image effects in which images are displayed in "
+"a circular view. Below is a sample shortcode how to use this type of effect."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:104
+msgid "Image Magnifier Effect :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:106
+msgid ""
+"This is a very nice effect that shows a big preview of the image when the "
+"mouse cursor is hovered over it. This is most commonly used on e-commerce "
+"websites to show the detail of product when the user hover over the product "
+"image. This effect can be used for your woocommerce shop to let user easily "
+"view the detail of product when they hover over the image."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:112
+msgid "Shortcode Documentation."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:117
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:78
+msgid "Shortcode and available parameters description :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:124
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:85
+msgid "Type of hover effect we want to apply."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:125
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:86
+msgid "eg. \"default_imagehover_effects\""
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:128
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:89
+msgid ""
+"Name of effect that we want to use. This parameter is only required when "
+"hovereffecttype is not equal to  \"default_imagehover_effects\". "
+"\"default_imagehover_effects\" take the effects from in and out attribute, "
+"rest of hovereffecttype takes effect from this attribute."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:129
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:90
+msgid "eg. \"effect_marley\""
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:132
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:93
+msgid "Url of source image we want to see as overlay background image."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:133
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:94
+msgid "eg. A valid image path."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:136
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:97
+msgid ""
+"Animation class name which must be applied as Starting / In effect. Only "
+"required when hovereffecttype = \"default_imagehover_effects\". "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:137
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:98
+msgid ""
+"bounce, flash, pulse, rubberBand, shake, swing, tada, wobble, bounceIn, "
+"bounceInDown, bounceInLeft, bounceInRight, bounceInUp, fadeIn, fadeInDown, "
+"fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, "
+"fadeInUp, fadeInUpBig, flip, flipInX, flipInY, \n"
+"lightSpeedIn, rotateIn, rotateInDownLeft, rotateInDownRight, rotateInUpLeft, "
+"rotateInUpRight, rollIn, zoomIn, zoomInDown, zoomInLeft, zoomInRight, "
+"zoomInUp"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:141
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:102
+msgid ""
+"Animation class name which must be applied as Finishing / Out effect. Only "
+"required when hovereffecttype = \"default_imagehover_effects\"."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:142
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:103
+msgid ""
+"bounceout, bounceOutDown, bounceOutLeft, bounceOutRight, bounceOutUp, "
+"fadeOut, fadeOutDown, fadeOutDownBig, fadeOutLeft, fadeOutLeftBig, "
+"fadeOutRight, fadeOutRightBig, fadeOutUp, fadeOutUpBig, flipOutX, flipOutY, "
+"lightSpeedOut, rotateOut, rotateOutDownLeft, rotateOutDownRight, "
+"rotateOutUpLeft, rotateOutUpRight, rollOut, zoomOut, zoomOutDown, "
+"zoomOutLeft, zoomOutRight, zoomOutUp"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:146
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:107
+msgid ""
+"Class name for position of content in overlay. Only required when "
+"hovereffecttype = \"default_imagehover_effects\". "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:147
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:108
+msgid ""
+"overlay_center,overlay_top_left,overlay_top_right , overlay_bottom_left , "
+"overlay_bottom_right"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:150
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:111
+msgid ""
+"Color for Overlay in Hexformat. Only required when hovereffecttype = "
+"\"default_imagehover_effects\". "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:151
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:112
+msgid "Any Hexaformat Color value Eg. #ffffff"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:154
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:115
+msgid ""
+"Width of overlay. Only required when hovereffecttype = "
+"\"default_imagehover_effects\". "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:155
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:116
+msgid ""
+"For Width in percentage - 1 to 100 (Without unit) <br> For Width in px - Eg. "
+"250px ( With px unit )"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:158
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:119
+msgid ""
+"Height of overlay. Only required when hovereffecttype = "
+"\"default_imagehover_effects\"."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:159
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:120
+msgid ""
+"For Height in percentage - 1 to 100 (Without unit) <br> For Height in px - "
+"Eg. 250px ( With px unit )"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:162
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:123
+msgid ""
+"Animation Speed. Only required when hovereffecttype = "
+"\"default_imagehover_effects\"."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:163
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:124
+msgid "Speed in seconds from .10 to 5.0"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:166
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:127
+msgid ""
+"Opacity value for Overlay. Only required when hovereffecttype = "
+"\"default_imagehover_effects\". "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:167
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:128
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:180
+msgid "Opacity value in decimal value from .1 (minimum) to 1 (maximum)"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:171
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:132
+msgid ""
+"Extra css class on image. Only required when hovereffecttype = "
+"\"default_imagehover_effects\"."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:172
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:133
+msgid "Any class name we want to apply on image tag"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:175
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:136
+msgid "It will show the featured image for particular post"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:176
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:137
+msgid "Any post id value"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:179
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:140
+msgid "It will show the image for attachment"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:180
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:141
+msgid "Any Attachment id value"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:183
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:144
+msgid ""
+"The url of full size image. Only required when hovereffecttype = \"image-"
+"magnifier\""
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:184
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:145
+msgid ""
+"The url of full size image that we need to see in magnifier when the user "
+"hover the image."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:187
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:148
+msgid "Shortcode Parameter"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:188
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:149
+msgid "Description"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:189
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:150
+msgid "Possible Values"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:269
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:170
+msgid "Hooks Available For Developers :"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:272
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:173
+msgid ""
+"This hook can be used to replace the whole image tag (\" featured image img "
+"tag \")that is used by default by wordpress. Useful for showing custom image."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:273
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:174
+msgid ""
+"This hook can be used to change the default \"Image Hover Content\" that is "
+"displayed when image is hovered."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:274
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:175
+msgid ""
+"This hook can be used to change the complete markup of image hover effect "
+"that also includes featured image or custom image. Most useful hook for "
+"providing image hover effect of your choice."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:275
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:176
+msgid "This hook can be used to change the default post title."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:276
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:177
+msgid "This hook can be used to change the default post permalink."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:277
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:178
+msgid "This hook can be used to change the default post excerpt."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:278
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how-old.php:179
+msgid "This hook can be used to change the default post readmore link."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:281
+msgid ""
+"This hook can be used to change the woocommerce product title markup present "
+"on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:282
+msgid ""
+"This hook can be used to change the woocommerce product price markup present "
+"on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:283
+msgid ""
+"This hook can be used to change the woocommerce product rating markup "
+"present on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:284
+msgid ""
+"This hook can be used to change the woocommerce product sku markup present "
+"on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:285
+msgid ""
+"This hook can be used to change the woocommerce product type markup present "
+"on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:286
+msgid ""
+"This hook can be used to change the woocommerce product \"Add To Cart\" "
+"markup present on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:287
+msgid ""
+"This hook can be used to change the woocommerce product excerpt markup "
+"present on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:288
+msgid ""
+"This hook can be used to change the woocommerce product variation "
+"details( If variable product) markup present on custom overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:305
+msgid "Create Support Ticket"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:307
+msgid "If still any issue, Create your "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/overview/views/how.php:307
+msgid " and we'd be happy to help you asap."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/model.settings.php:28
+msgid "General Settings"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/model.settings.php:29
+msgid "Effects Gallery"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/model.settings.php:30
+msgid "How to Use"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/model.settings.php:54
+msgid "Setting(s) saved successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/effects.php:12
+msgid "Choose Image Hover Effects Gallery For Any Post Type From Below."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/effects.php:119
+msgid "Choose Hover Effect Type"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:19
+msgid "Image Hover Effect Builder"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:34
+msgid "Show On Page Load"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:38
+msgid "Display overlays on page load."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:44
+msgid "Show Always"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:48
+msgid "Display overlays always."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:115
+msgid "Current Effect For Products"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:115
+msgid "Current Effect For PostTpe : "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:120
+msgid "Change Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:121
+msgid "Remove Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:126
+msgid "No Effect Set For This Post Type"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:127
+msgid "Apply Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:134
+msgid "Image Hover Effect  Settings For WooCommerce Products"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:136
+msgid "Image Hover Effect  Settings for "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:136
+msgid " Post Type"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:147
+msgid ""
+"<p>Use the below button only when you have changed the \"HoverEffect Type\". "
+"Do not use this button everytime you switch to a new \"Effect\" of same "
+"\"HoverEffect Type\". For eg. Use button only if you have switched from "
+"\"Square Effect\" to \"Circular Effect\" or from \"Circular Effect\" to "
+"\"Text Effect\" with the help of below \"Change Effect\" button otherwise no "
+"need. This button is meant for bringing the most suitable markup according "
+"to current hovereffect type.</p><button type = \"button\" class="
+"\"get_default_markup\" data-hovereffect = "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:149
+msgid "Display a text/html content in the overlays. Use,"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:152
+msgid "Image Hover Effect Content"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:162
+msgid "Post Listing"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:163
+msgid "Single Post"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:164
+msgid "Archives Page"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:168
+msgid "Apply On"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:172
+msgid "Please check to apply overlays on featured image in posts listing."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:180
+msgid "Current Hover Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:188
+msgid "Custom CSS for frontend"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:190
+msgid "Custom CSS For Frontend"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/modules/settings/views/manage.php:215
+msgid "Save Setting"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend-tabular.php:221
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend-tabular.php:357
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.tabular.php:227
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.tabular.php:409
+msgid "Selected "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend-templates.php:490
+msgid "Choose Marker Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend-templates.php:497
+msgid "Remove Marker Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.map-widget.php:25
+msgid "A widget to display google maps"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.map-widget.php:73
+msgid "Title:"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.map-widget.php:79
+msgid "Select Your Map:"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.map-widget.php:82
+msgid "Select map"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.tabular.php:242
+msgid "Manage "
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.tabular.php:576
+msgid "Filter"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.tabular.php:636
+msgid "Select Page"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend.php:130
+msgid "Something went wrong."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend.php:142
+msgid "New Template? Choose a design, settings and tap on save template."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend.php:164
+msgid "No Posts found."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/core/class.frontend.php:424
+msgid "Load More"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/image-hover-effects-pro-builder.php:58
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/image-hover-effects-pro-builder.php:62
+msgid "Show More Similar Effects"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/image-hover-effects-pro-builder.php:116
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/image-hover-effects-pro-builder.php:119
+msgid "Apply Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:24
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:34
+msgid "Attention Seekers"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:25
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:35
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:14
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:34
+msgid "Bouncing"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:26
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:36
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:15
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:35
+msgid "Fading"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:27
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:37
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:16
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:36
+msgid "Flippers"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:28
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:38
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:17
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:37
+msgid "Lightspeed"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:29
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:39
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:18
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:38
+msgid "Rotating"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:30
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:40
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:19
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:39
+msgid "Specials"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:31
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/classes/default-image-hover-effects.php:41
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:20
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:40
+msgid "Zoom"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:13
+msgid "Attention_Seekers"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:68
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:70
+msgid "Insert URL of Custom Image Here"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:76
+msgid "Post ID"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:78
+msgid ""
+"Defining a post_id will use featured image of that particular post. If "
+"defining this, there is no need to define source of custom image in above "
+"control."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:82
+msgid "Attachment - Id"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:84
+msgid ""
+"If you want to show a image by using directly its attachment id, pass the "
+"attachment id here. No need to define src or post id in above controls"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:89
+msgid "Image Hover Effect Type"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:91
+msgid "Select Image Hover Effect Type <span>*</span>"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:100
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:102
+msgid "Select Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:109
+msgid "Image Hover IN Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:111
+msgid "Select the hover In effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:118
+msgid "Image Hover Out Effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:120
+msgid "Select the hover Out effect"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:127
+msgid "Insert URL of Full size Image - If Hover Effect Type Is Basic Magnifier"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:129
+msgid ""
+"Insert URL of Full size Image which will be shown when image is hovered in "
+"the magnifying area, if hovereffect is equal to Basic Magnifier"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:134
+msgid "Class name that decides position of content in overlay."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:136
+msgid "Class name for position of content in overlay."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:143
+msgid "Overlay Width"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:146
+msgid ""
+"Overlay Width - For Width in percentage - 1 to 100 (Without unit) \n"
+"\t\t\t\t\t\t\tFor Width in px - Eg. 250px ( With px unit )"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:153
+msgid "Overlay Height"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:156
+msgid ""
+"Overlay Height - For Height in percentage - 1 to 100 (Without unit) \n"
+"\t\t\t\t\t\t\tFor Height in px - Eg. 250px ( With px unit )"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:165
+msgid "Animation Speed in seconds from .10 to 5.0"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:171
+msgid "Color for Overlay in Hexformat."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:173
+msgid "Color for Overlay in Hexformat.."
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:178
+msgid "Overlay Opacity"
+msgstr ""
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:185
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/image-hover-effects-pro/integrations/vc/shortcodeInputs.php:187
+msgid "Custom Class For Image Tag"
+msgstr ""
