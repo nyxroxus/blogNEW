@@ -27,6 +27,6 @@
     </div>
     <br>
     <input type="hidden" name="submitted" value="1">
-    <p class="tr-l tc"><input type="submit" class="ph4 pv3 bg-neonblue white f7 b" value="SEND MESSAGE" style="border: none!important;"></p>
+    <p class="tr-l tc"><input type="submit" class="ph4 pv3 widget-button white f7 b" value="SEND MESSAGE" style="border: none!important;"></p>
   </form>
 </div>

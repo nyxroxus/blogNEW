@@ -1,4 +1,5 @@
 <div id="site-header" class="dib-l">
+  <header>
     <div class="dn db-l" style="background-color: #000000; opacity: 0.9; filter:blur(1px);">
       <img src="<?php header_image(); ?>" style=""
       width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"
@@ -10,4 +11,5 @@
       alt="">
     </div>
     <?php get_template_part( 'partials/Header/bloginfo' ) ?>
+  </header>
 </div>

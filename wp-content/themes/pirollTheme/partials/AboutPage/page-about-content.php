@@ -1,4 +1,4 @@
-<div class="pa4 pv5 tc bg-neonblue" style="">
+<div class="pa4 pv5 tc widget-div" style="">
   <!-- Project widgets -->
   <div class="w-20-l tc pa2 dib-l">
     <div class="dib tc" style="width: 50px;">

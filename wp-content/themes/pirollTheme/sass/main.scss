@@ -10,17 +10,9 @@
   body{
   overflow-x: hidden;
   overflow-y: scroll;
+  }
 }
-}
-a{
-  color: black;
-}
-a:hover{
-  color: $neonblue;
-}
-a:visited{
-  color: black;
-}
+
 /* Primary navigation */
 .main-menu li{
   list-style: none;
@@ -42,9 +34,7 @@ a:visited{
 .main-menu a{
   color: black;
 }
-.main-menu a:hover{
-  color: $neonblue;
-}
+
 /* Footer menu */
 .menu ul, li{
   padding: 0 0 0 0!important;
@@ -56,8 +46,8 @@ a:visited{
 .footer-menu a{
   color: $clean;
 }
-.footer-menu a:hover{
-  color: $neonblue;
+.pagination-link a{
+  color: black;
 }
 .custom-header-text{
   position: absolute;
@@ -77,7 +67,6 @@ a:visited{
   width: 100%;
   transition: all 0.8s;
   opacity: 0;
-  background-color: #2cdae9;
   background-size: 100% 100%;
 }
 .image:hover:before {

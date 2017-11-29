@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="w-50-l fl-l pa5-l pa3">
-    <h1><?php the_title(); ?></h1>
+    <h1 class="heading"><?php the_title(); ?></h1>
     <div class="pt4 lh-copy" style=""><?php the_content(); ?></div><br>
     <div class="">
       <?php if( get_field('client_name') ): ?>

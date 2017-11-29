@@ -1,12 +1,13 @@
 <?php
+include('theme-options.php');
 include('partials/customizer.php');
-
 /* Enqueue scripts and styles section */
 function pirollTheme_scripts() {
     wp_enqueue_style( 'main', get_template_directory_uri() . '/stylesheets/main.css', array(), '1.0.0', 'all' );
     wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main-js.js', array(), '1.0.0', true );
     wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
     wp_enqueue_style('Font_Awesome');
+    wp_enqueue_style( 'custom-styles', get_template_directory_uri() . '/custom-styles.css' );
 	}
 add_action( 'wp_enqueue_scripts', 'pirollTheme_scripts' );
 
@@ -85,7 +86,7 @@ function piroll_widgets_init() {
     'description' => __( 'The first footer widget area', 'piroll' ),
     'before_widget' => '<div id="%1$s" class="widget-container %2$s" class="" >',
     'after_widget' => '</div>',
-    'before_title' => '<h3 class="widget-title neonblue">',
+    'before_title' => '<h3 class="widget-title heading">',
     'after_title' => '</h3>',
   ) );
   register_sidebar( array(
@@ -94,7 +95,7 @@ function piroll_widgets_init() {
     'description' => __( 'The second footer widget area', 'piroll' ),
     'before_widget' => '<div id="%1$s" class="widget-container %2$s" class="" >',
     'after_widget' => '</div>',
-    'before_title' => '<a class="widget-title neonblue" href="#">',
+    'before_title' => '<a class="widget-title heading" href="#">',
     'after_title' => '</a>',
   ) );
   register_sidebar( array(
@@ -172,8 +173,14 @@ function piroll_widgets_init() {
 }
 add_action( 'widgets_init', 'piroll_widgets_init' );
 
-
-/* VC INTEGRATION */
+function generate_options_css() {
+    $ss_dir = get_stylesheet_directory();
+    ob_start(); // Capture all output into buffer
+    require($ss_dir . '/custom-styles.php'); // Grab the custom-style.php file
+    $css = ob_get_clean(); // Store output in a variable, then flush the buffer
+    file_put_contents($ss_dir . '/custom-styles.css', $css, LOCK_EX); // Save it as a css file
+}
+add_action( 'acf/save_post', 'generate_options_css', 20 ); //Parse the output and write the CSS file on post save (thanks Esmail Ebrahimi)
 
 
 

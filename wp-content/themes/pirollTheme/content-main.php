@@ -6,7 +6,6 @@
         <?php the_post_thumbnail('wordpress-thumbnail'); ?>
         <span class="read-more"><i class="fa fa-eye fa-2x white link"></i></span>
       </div>
-
     </a>
   </article>
   <?php endif; ?>
