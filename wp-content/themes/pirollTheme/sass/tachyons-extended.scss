@@ -3,13 +3,14 @@
 /* Tachyons color codes extended */
 
 /* Background colors */
+.weird{ background-color: $graywhite; }
 .bg-redpink { background-color: $redpink; }
 .bg-transwhite { background-color: $transparentwhite; }
 .bg-lightred { background-color: $lightred; }
 .bg-darkpurple { background-color: $darkpurple; }
 .bg-lightergray { background-color: $lightergray; }
 .bg-darkergray { background-color: $darkergray; }
-
+.bg-neonblue { background-color: $neonblue; }
 
 
 /* Text colors */
@@ -36,3 +37,4 @@
 .custom-color-hover:hover{ background-color: $lightred; .custom-color, a{ color: white; } }
 .custom-read-more{ border-color: $darkpurple; }
 .custom-read-more:hover{ border-color: white; }
+.c-lh-copy{ line-height: 2; }

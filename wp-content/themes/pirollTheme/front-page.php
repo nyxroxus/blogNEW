@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div class="tc pt2">
+<div class="tc pt2-l">
   <?php
     global $post;
     $page_id = $post->ID;
